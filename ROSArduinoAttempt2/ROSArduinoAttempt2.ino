@@ -91,6 +91,7 @@ void runCommand()
 	case MOTOR_RAW_PWM:
 		Serial.printf("sending raw PWM");
 		setMotorSpeed(M1_SPEED_ENABLE, M2_MOTOR_FORWARD, M2_MOTOR_BACKWARD, arg1_l);
+		
 		break;
 	default:
 		Serial.println("Invalid command");
