@@ -26,17 +26,20 @@ void setup()
 	int	resolution = 8;
 
 	pinMode(PING_LED, OUTPUT);
-	// pinMode(M2_MOTOR_FORWARD, OUTPUT);
-	// pinMode(M1_MOTOR_BACKWARD, OUTPUT);
-	// pinMode(M1_MOTOR_FORWARD, OUTPUT);
+	pinMode(M2_MOTOR_FORWARD, OUTPUT);
+	pinMode(M2_MOTOR_BACKWARD, OUTPUT);
+	pinMode(M1_MOTOR_FORWARD, OUTPUT);
+	pinMode(M1_MOTOR_BACKWARD, OUTPUT);
+
 	Ping("Start up Esp32");
 	// Turn off motors - Initial state
-	// digitalWrite(M2_MOTOR_BACKWARD, LOW);
-	// digitalWrite(M2_MOTOR_FORWARD, LOW);
-	// digitalWrite(M1_MOTOR_BACKWARD, LOW);
-	// digitalWrite(M1_MOTOR_FORWARD, LOW);
+	digitalWrite(M2_MOTOR_FORWARD, LOW);
+	digitalWrite(M2_MOTOR_BACKWARD, LOW);
+	digitalWrite(M1_MOTOR_FORWARD, LOW);
+	digitalWrite(M1_MOTOR_BACKWARD, LOW);
 	// attach the channel to the GPIO to be controlled
 	ledcAttach(M1_SPEED_ENABLE, freq, resolution);
+	ledcAttach(M2_SPEED_ENABLE, freq, resolution);
 }
 
 void Ping(String ping_message)
@@ -90,8 +93,8 @@ void runCommand()
 		break;
 	case MOTOR_RAW_PWM:
 		Serial.printf("sending raw PWM");
-		setMotorSpeed(M1_SPEED_ENABLE, M2_MOTOR_FORWARD, M2_MOTOR_BACKWARD, arg1_l);
-		
+		setMotorSpeed(M1_SPEED_ENABLE, M1_MOTOR_FORWARD, M1_MOTOR_BACKWARD, arg1_l);
+		setMotorSpeed(M2_SPEED_ENABLE, M2_MOTOR_FORWARD, M2_MOTOR_BACKWARD, arg2_l);
 		break;
 	default:
 		Serial.println("Invalid command");
