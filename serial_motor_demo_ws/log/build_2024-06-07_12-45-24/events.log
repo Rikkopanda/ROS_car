@@ -1,0 +1,199 @@
+[0.000000] (-) TimerEvent: {}
+[0.000345] (serial_motor_msgs) JobQueued: {'identifier': 'serial_motor_msgs', 'dependencies': OrderedDict()}
+[0.000422] (serial_motor_demo) JobQueued: {'identifier': 'serial_motor_demo', 'dependencies': OrderedDict([('serial_motor_msgs', '/home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs')])}
+[0.000511] (serial_motor_msgs) JobStarted: {'identifier': 'serial_motor_msgs'}
+[0.066356] (serial_motor_msgs) JobProgress: {'identifier': 'serial_motor_msgs', 'progress': 'cmake'}
+[0.069029] (serial_motor_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/src/serial_motor_msgs', '-DCMAKE_INSTALL_PREFIX=/home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs'], 'cwd': '/home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/build/serial_motor_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rikverhoeven'), ('LC_TIME', 'nl_NL.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rikverhoeven'), ('OLDPWD', '/home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('SYSTEMD_EXEC_PID', '4227'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install:/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rikverhoeven'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rikverhoeven'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/rikverhoeven/.local/bin:/home/rikverhoeven/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/rikverhoeven/bin'), ('SESSION_MANAGER', 'local/rikverhoeven-N56VM:@/tmp/.ICE-unix/2077,unix/rikverhoeven-N56VM:/tmp/.ICE-unix/2077'), ('GTK3_MODULES', 'xapp-gtk3-module'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f114b5e0_2ee7_4698_ae77_3698fd3d3841'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('ZEITGEIST_DATA_PATH', '/home/rikverhoeven/.local/share/zeitgeist'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.104'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '201'), ('AMENT_PREFIX_PATH', '/home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_demo:/home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs:/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/py_srvcli:/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/py_pubsub:/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/kimbo_control_dc_motor:/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/cpp_srvcli:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/build/serial_motor_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/build/serial_motor_demo:/home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_demo/lib/python3.10/site-packages:/home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/local/lib/python3.10/dist-packages:/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/build/py_srvcli:/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/py_srvcli/lib/python3.10/site-packages:/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/build/py_pubsub:/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/py_pubsub/lib/python3.10/site-packages:/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/build/kimbo_control_dc_motor:/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/kimbo_control_dc_motor/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs:/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/cpp_srvcli:/home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_demo:/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/py_srvcli:/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/py_pubsub:/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/kimbo_control_dc_motor:/opt/ros/humble')]), 'shell': False}
+[0.099129] (-) TimerEvent: {}
+[0.199621] (-) TimerEvent: {}
+[0.300278] (-) TimerEvent: {}
+[0.372811] (serial_motor_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.400374] (-) TimerEvent: {}
+[0.500728] (-) TimerEvent: {}
+[0.601082] (-) TimerEvent: {}
+[0.701555] (-) TimerEvent: {}
+[0.723004] (serial_motor_msgs) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.801706] (-) TimerEvent: {}
+[0.828025] (serial_motor_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.901815] (-) TimerEvent: {}
+[1.002323] (-) TimerEvent: {}
+[1.040072] (serial_motor_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.076735] (serial_motor_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.102520] (-) TimerEvent: {}
+[1.118672] (serial_motor_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.202745] (-) TimerEvent: {}
+[1.303640] (-) TimerEvent: {}
+[1.339727] (serial_motor_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.403863] (-) TimerEvent: {}
+[1.504630] (-) TimerEvent: {}
+[1.605139] (-) TimerEvent: {}
+[1.705500] (-) TimerEvent: {}
+[1.805865] (-) TimerEvent: {}
+[1.906315] (-) TimerEvent: {}
+[2.006761] (-) TimerEvent: {}
+[2.016725] (serial_motor_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.106859] (-) TimerEvent: {}
+[2.207254] (-) TimerEvent: {}
+[2.307591] (-) TimerEvent: {}
+[2.377111] (serial_motor_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.407703] (-) TimerEvent: {}
+[2.508174] (-) TimerEvent: {}
+[2.608853] (-) TimerEvent: {}
+[2.709202] (-) TimerEvent: {}
+[2.809577] (-) TimerEvent: {}
+[2.880808] (serial_motor_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.909787] (-) TimerEvent: {}
+[2.966195] (serial_motor_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[3.010008] (-) TimerEvent: {}
+[3.033551] (serial_motor_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.034287] (serial_motor_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[3.034764] (serial_motor_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[3.110239] (-) TimerEvent: {}
+[3.179230] (serial_motor_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.210432] (-) TimerEvent: {}
+[3.241402] (serial_motor_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.310611] (-) TimerEvent: {}
+[3.325466] (serial_motor_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.410708] (-) TimerEvent: {}
+[3.511083] (-) TimerEvent: {}
+[3.559296] (serial_motor_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[3.569121] (serial_motor_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/build/serial_motor_msgs\n'}
+[3.581429] (serial_motor_msgs) CommandEnded: {'returncode': 0}
+[3.582287] (serial_motor_msgs) JobProgress: {'identifier': 'serial_motor_msgs', 'progress': 'build'}
+[3.583799] (serial_motor_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/build/serial_motor_msgs', '--', '-j8', '-l8'], 'cwd': '/home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/build/serial_motor_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rikverhoeven'), ('LC_TIME', 'nl_NL.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rikverhoeven'), ('OLDPWD', '/home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('SYSTEMD_EXEC_PID', '4227'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install:/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rikverhoeven'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rikverhoeven'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/rikverhoeven/.local/bin:/home/rikverhoeven/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/rikverhoeven/bin'), ('SESSION_MANAGER', 'local/rikverhoeven-N56VM:@/tmp/.ICE-unix/2077,unix/rikverhoeven-N56VM:/tmp/.ICE-unix/2077'), ('GTK3_MODULES', 'xapp-gtk3-module'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f114b5e0_2ee7_4698_ae77_3698fd3d3841'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('ZEITGEIST_DATA_PATH', '/home/rikverhoeven/.local/share/zeitgeist'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.104'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '201'), ('AMENT_PREFIX_PATH', '/home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_demo:/home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs:/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/py_srvcli:/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/py_pubsub:/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/kimbo_control_dc_motor:/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/cpp_srvcli:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/build/serial_motor_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/build/serial_motor_demo:/home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_demo/lib/python3.10/site-packages:/home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/local/lib/python3.10/dist-packages:/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/build/py_srvcli:/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/py_srvcli/lib/python3.10/site-packages:/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/build/py_pubsub:/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/py_pubsub/lib/python3.10/site-packages:/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/build/kimbo_control_dc_motor:/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/kimbo_control_dc_motor/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs:/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/cpp_srvcli:/home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_demo:/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/py_srvcli:/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/py_pubsub:/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/kimbo_control_dc_motor:/opt/ros/humble')]), 'shell': False}
+[3.611214] (-) TimerEvent: {}
+[3.644581] (serial_motor_msgs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[3.658598] (serial_motor_msgs) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[3.671455] (serial_motor_msgs) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_symlink_serial_motor_msgs\n'}
+[3.711303] (-) TimerEvent: {}
+[3.811642] (-) TimerEvent: {}
+[3.912047] (-) TimerEvent: {}
+[4.012429] (-) TimerEvent: {}
+[4.112925] (-) TimerEvent: {}
+[4.204043] (serial_motor_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[4.204887] (serial_motor_msgs) StdoutLine: {'line': b'writing serial_motor_msgs.egg-info/PKG-INFO\n'}
+[4.205163] (serial_motor_msgs) StdoutLine: {'line': b'writing dependency_links to serial_motor_msgs.egg-info/dependency_links.txt\n'}
+[4.205468] (serial_motor_msgs) StdoutLine: {'line': b'writing top-level names to serial_motor_msgs.egg-info/top_level.txt\n'}
+[4.213008] (-) TimerEvent: {}
+[4.237066] (serial_motor_msgs) StdoutLine: {'line': b"reading manifest file 'serial_motor_msgs.egg-info/SOURCES.txt'\n"}
+[4.252517] (serial_motor_msgs) StdoutLine: {'line': b"writing manifest file 'serial_motor_msgs.egg-info/SOURCES.txt'\n"}
+[4.287037] (serial_motor_msgs) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_build_serial_motor_msgs_egg\n'}
+[4.313116] (-) TimerEvent: {}
+[4.394705] (serial_motor_msgs) StdoutLine: {'line': b'[  3%] Built target serial_motor_msgs__cpp\n'}
+[4.409110] (serial_motor_msgs) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.410910] (serial_motor_msgs) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.413031] (serial_motor_msgs) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[4.413404] (-) TimerEvent: {}
+[4.513909] (-) TimerEvent: {}
+[4.568671] (serial_motor_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target serial_motor_msgs__rosidl_generator_c\x1b[0m\n'}
+[4.608672] (serial_motor_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/serial_motor_msgs__rosidl_generator_c.dir/rosidl_generator_c/serial_motor_msgs/msg/detail/motor_vels__functions.c.o\x1b[0m\n'}
+[4.614018] (-) TimerEvent: {}
+[4.620525] (serial_motor_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/serial_motor_msgs__rosidl_generator_c.dir/rosidl_generator_c/serial_motor_msgs/msg/detail/motor_command__functions.c.o\x1b[0m\n'}
+[4.637515] (serial_motor_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/serial_motor_msgs__rosidl_generator_c.dir/rosidl_generator_c/serial_motor_msgs/msg/detail/encoder_vals__functions.c.o\x1b[0m\n'}
+[4.660155] (serial_motor_msgs) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/serial_motor_msgs__rosidl_generator_c.dir/rosidl_generator_c/serial_motor_msgs/msg/detail/serial_log__functions.c.o\x1b[0m\n'}
+[4.714145] (-) TimerEvent: {}
+[4.815279] (-) TimerEvent: {}
+[4.860739] (serial_motor_msgs) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/build/serial_motor_msgs/rosidl_generator_c/serial_motor_msgs/msg/detail/serial_log__functions.h:19\x1b[m\x1b[K,\n'}
+[4.861202] (serial_motor_msgs) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/build/serial_motor_msgs/rosidl_generator_c/serial_motor_msgs/msg/detail/serial_log__functions.c:4\x1b[m\x1b[K:\n'}
+[4.861467] (serial_motor_msgs) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/build/serial_motor_msgs/rosidl_generator_c/serial_motor_msgs/msg/detail/serial_log__struct.h:22:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kserial_motor_msgs/msg/detail/string__struct.h: No such file or directory\n'}
+[4.861688] (serial_motor_msgs) StderrLine: {'line': b'   22 | #include \x1b[01;31m\x1b[K"serial_motor_msgs/msg/detail/string__struct.h"\x1b[m\x1b[K\n'}
+[4.861923] (serial_motor_msgs) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.862133] (serial_motor_msgs) StderrLine: {'line': b'compilation terminated.\n'}
+[4.864123] (serial_motor_msgs) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/serial_motor_msgs__rosidl_generator_c.dir/build.make:195: CMakeFiles/serial_motor_msgs__rosidl_generator_c.dir/rosidl_generator_c/serial_motor_msgs/msg/detail/serial_log__functions.c.o] Error 1\n'}
+[4.864430] (serial_motor_msgs) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[4.915400] (-) TimerEvent: {}
+[5.015965] (-) TimerEvent: {}
+[5.116886] (-) TimerEvent: {}
+[5.218014] (-) TimerEvent: {}
+[5.318845] (-) TimerEvent: {}
+[5.399240] (serial_motor_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target serial_motor_msgs__rosidl_typesupport_cpp\x1b[0m\n'}
+[5.418964] (-) TimerEvent: {}
+[5.487767] (serial_motor_msgs) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/serial_motor_msgs/msg/motor_command__type_support.cpp.o\x1b[0m\n'}
+[5.519087] (-) TimerEvent: {}
+[5.523803] (serial_motor_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/serial_motor_msgs/msg/motor_vels__type_support.cpp.o\x1b[0m\n'}
+[5.583902] (serial_motor_msgs) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/serial_motor_msgs/msg/encoder_vals__type_support.cpp.o\x1b[0m\n'}
+[5.619225] (-) TimerEvent: {}
+[5.682270] (serial_motor_msgs) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:213: CMakeFiles/serial_motor_msgs__rosidl_generator_c.dir/all] Error 2\n'}
+[5.682633] (serial_motor_msgs) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[5.696500] (serial_motor_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target serial_motor_msgs__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[5.719352] (-) TimerEvent: {}
+[5.720636] (serial_motor_msgs) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/serial_motor_msgs/msg/serial_log__type_support.cpp.o\x1b[0m\n'}
+[5.731893] (serial_motor_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target serial_motor_msgs__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[5.733866] (serial_motor_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/serial_motor_msgs/msg/detail/motor_command__type_support.cpp.o\x1b[0m\n'}
+[5.747346] (serial_motor_msgs) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/serial_motor_msgs/msg/detail/motor_vels__type_support.cpp.o\x1b[0m\n'}
+[5.753563] (serial_motor_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/serial_motor_msgs/msg/detail/encoder_vals__type_support.cpp.o\x1b[0m\n'}
+[5.819468] (-) TimerEvent: {}
+[5.892389] (serial_motor_msgs) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/serial_motor_msgs/msg/detail/dds_fastrtps/motor_command__type_support.cpp.o\x1b[0m\n'}
+[5.919596] (-) TimerEvent: {}
+[6.020021] (-) TimerEvent: {}
+[6.120448] (-) TimerEvent: {}
+[6.221217] (-) TimerEvent: {}
+[6.321813] (-) TimerEvent: {}
+[6.422401] (-) TimerEvent: {}
+[6.523098] (-) TimerEvent: {}
+[6.623527] (-) TimerEvent: {}
+[6.723980] (-) TimerEvent: {}
+[6.811617] (serial_motor_msgs) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/build/serial_motor_msgs/rosidl_typesupport_cpp/serial_motor_msgs/msg/serial_log__type_support.cpp:7\x1b[m\x1b[K:\n'}
+[6.812219] (serial_motor_msgs) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/build/serial_motor_msgs/rosidl_generator_cpp/serial_motor_msgs/msg/detail/serial_log__struct.hpp:20:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kserial_motor_msgs/msg/detail/string__struct.hpp: No such file or directory\n'}
+[6.812416] (serial_motor_msgs) StderrLine: {'line': b'   20 | #include \x1b[01;31m\x1b[K"serial_motor_msgs/msg/detail/string__struct.hpp"\x1b[m\x1b[K\n'}
+[6.812600] (serial_motor_msgs) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.812777] (serial_motor_msgs) StderrLine: {'line': b'compilation terminated.\n'}
+[6.819161] (serial_motor_msgs) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/serial_motor_msgs__rosidl_typesupport_cpp.dir/build.make:140: CMakeFiles/serial_motor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/serial_motor_msgs/msg/serial_log__type_support.cpp.o] Error 1\n'}
+[6.819520] (serial_motor_msgs) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[6.824098] (-) TimerEvent: {}
+[6.835216] (serial_motor_msgs) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/serial_motor_msgs/msg/detail/serial_log__type_support.cpp.o\x1b[0m\n'}
+[6.927676] (-) TimerEvent: {}
+[6.987029] (serial_motor_msgs) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/build/serial_motor_msgs/rosidl_typesupport_introspection_cpp/serial_motor_msgs/msg/detail/serial_log__type_support.cpp:12\x1b[m\x1b[K:\n'}
+[6.987341] (serial_motor_msgs) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/build/serial_motor_msgs/rosidl_generator_cpp/serial_motor_msgs/msg/detail/serial_log__struct.hpp:20:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kserial_motor_msgs/msg/detail/string__struct.hpp: No such file or directory\n'}
+[6.987523] (serial_motor_msgs) StderrLine: {'line': b'   20 | #include \x1b[01;31m\x1b[K"serial_motor_msgs/msg/detail/string__struct.hpp"\x1b[m\x1b[K\n'}
+[6.987695] (serial_motor_msgs) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.987887] (serial_motor_msgs) StderrLine: {'line': b'compilation terminated.\n'}
+[6.995545] (serial_motor_msgs) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/serial_motor_msgs__rosidl_typesupport_introspection_cpp.dir/build.make:154: CMakeFiles/serial_motor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/serial_motor_msgs/msg/detail/serial_log__type_support.cpp.o] Error 1\n'}
+[6.995908] (serial_motor_msgs) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[7.015163] (serial_motor_msgs) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/serial_motor_msgs/msg/detail/dds_fastrtps/motor_vels__type_support.cpp.o\x1b[0m\n'}
+[7.027806] (-) TimerEvent: {}
+[7.128244] (-) TimerEvent: {}
+[7.229297] (-) TimerEvent: {}
+[7.329742] (-) TimerEvent: {}
+[7.430129] (-) TimerEvent: {}
+[7.530572] (-) TimerEvent: {}
+[7.631013] (-) TimerEvent: {}
+[7.731436] (-) TimerEvent: {}
+[7.832231] (-) TimerEvent: {}
+[7.932701] (-) TimerEvent: {}
+[8.033489] (-) TimerEvent: {}
+[8.134640] (-) TimerEvent: {}
+[8.235756] (-) TimerEvent: {}
+[8.336906] (-) TimerEvent: {}
+[8.362428] (serial_motor_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/serial_motor_msgs/msg/detail/dds_fastrtps/serial_log__type_support.cpp.o\x1b[0m\n'}
+[8.379991] (serial_motor_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/serial_motor_msgs/msg/detail/dds_fastrtps/encoder_vals__type_support.cpp.o\x1b[0m\n'}
+[8.437032] (-) TimerEvent: {}
+[8.495941] (serial_motor_msgs) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/build/serial_motor_msgs/rosidl_typesupport_fastrtps_cpp/serial_motor_msgs/msg/detail/serial_log__rosidl_typesupport_fastrtps_cpp.hpp:11\x1b[m\x1b[K,\n'}
+[8.496286] (serial_motor_msgs) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/build/serial_motor_msgs/rosidl_typesupport_fastrtps_cpp/serial_motor_msgs/msg/detail/dds_fastrtps/serial_log__type_support.cpp:4\x1b[m\x1b[K:\n'}
+[8.496504] (serial_motor_msgs) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/build/serial_motor_msgs/rosidl_generator_cpp/serial_motor_msgs/msg/detail/serial_log__struct.hpp:20:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kserial_motor_msgs/msg/detail/string__struct.hpp: No such file or directory\n'}
+[8.496740] (serial_motor_msgs) StderrLine: {'line': b'   20 | #include \x1b[01;31m\x1b[K"serial_motor_msgs/msg/detail/string__struct.hpp"\x1b[m\x1b[K\n'}
+[8.496938] (serial_motor_msgs) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.497136] (serial_motor_msgs) StderrLine: {'line': b'compilation terminated.\n'}
+[8.501753] (serial_motor_msgs) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/serial_motor_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make:154: CMakeFiles/serial_motor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/serial_motor_msgs/msg/detail/dds_fastrtps/serial_log__type_support.cpp.o] Error 1\n'}
+[8.502106] (serial_motor_msgs) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[8.537163] (-) TimerEvent: {}
+[8.622715] (serial_motor_msgs) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:395: CMakeFiles/serial_motor_msgs__rosidl_typesupport_cpp.dir/all] Error 2\n'}
+[8.637412] (-) TimerEvent: {}
+[8.737975] (-) TimerEvent: {}
+[8.838396] (-) TimerEvent: {}
+[8.938996] (-) TimerEvent: {}
+[9.008731] (serial_motor_msgs) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:369: CMakeFiles/serial_motor_msgs__rosidl_typesupport_introspection_cpp.dir/all] Error 2\n'}
+[9.039127] (-) TimerEvent: {}
+[9.140336] (-) TimerEvent: {}
+[9.241577] (-) TimerEvent: {}
+[9.342789] (-) TimerEvent: {}
+[9.360858] (serial_motor_msgs) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:343: CMakeFiles/serial_motor_msgs__rosidl_typesupport_fastrtps_cpp.dir/all] Error 2\n'}
+[9.361230] (serial_motor_msgs) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[9.367951] (serial_motor_msgs) CommandEnded: {'returncode': 2}
+[9.443142] (-) TimerEvent: {}
+[9.544032] (-) TimerEvent: {}
+[9.644460] (-) TimerEvent: {}
+[9.744850] (-) TimerEvent: {}
+[9.819960] (serial_motor_msgs) JobEnded: {'identifier': 'serial_motor_msgs', 'rc': 2}
+[9.830825] (serial_motor_demo) JobSkipped: {'identifier': 'serial_motor_demo'}
+[9.830952] (-) EventReactorShutdown: {}

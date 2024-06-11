@@ -1,0 +1,37 @@
+[2.073s] Invoking command in '/home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/src/serial_motor_demo': PYTHONPATH=/home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/build/serial_motor_demo/prefix_override:/home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/serial_motor_demo build --build-base /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/build/serial_motor_demo/build install --record /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/build/serial_motor_demo/install.log --single-version-externally-managed install_data
+[2.554s] running egg_info
+[2.555s] creating ../../build/serial_motor_demo/serial_motor_demo.egg-info
+[2.555s] writing ../../build/serial_motor_demo/serial_motor_demo.egg-info/PKG-INFO
+[2.556s] writing dependency_links to ../../build/serial_motor_demo/serial_motor_demo.egg-info/dependency_links.txt
+[2.556s] writing entry points to ../../build/serial_motor_demo/serial_motor_demo.egg-info/entry_points.txt
+[2.556s] writing requirements to ../../build/serial_motor_demo/serial_motor_demo.egg-info/requires.txt
+[2.557s] writing top-level names to ../../build/serial_motor_demo/serial_motor_demo.egg-info/top_level.txt
+[2.557s] writing manifest file '../../build/serial_motor_demo/serial_motor_demo.egg-info/SOURCES.txt'
+[2.559s] reading manifest file '../../build/serial_motor_demo/serial_motor_demo.egg-info/SOURCES.txt'
+[2.561s] writing manifest file '../../build/serial_motor_demo/serial_motor_demo.egg-info/SOURCES.txt'
+[2.561s] running build
+[2.561s] running build_py
+[2.561s] creating /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/build/serial_motor_demo/build
+[2.562s] creating /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/build/serial_motor_demo/build/lib
+[2.562s] creating /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/build/serial_motor_demo/build/lib/serial_motor_demo
+[2.562s] copying serial_motor_demo/__init__.py -> /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/build/serial_motor_demo/build/lib/serial_motor_demo
+[2.562s] copying serial_motor_demo/driver.py -> /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/build/serial_motor_demo/build/lib/serial_motor_demo
+[2.563s] running install
+[2.563s] running install_lib
+[2.564s] creating /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_demo/lib/python3.10/site-packages/serial_motor_demo
+[2.564s] copying /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/build/serial_motor_demo/build/lib/serial_motor_demo/__init__.py -> /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_demo/lib/python3.10/site-packages/serial_motor_demo
+[2.564s] copying /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/build/serial_motor_demo/build/lib/serial_motor_demo/driver.py -> /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_demo/lib/python3.10/site-packages/serial_motor_demo
+[2.565s] byte-compiling /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_demo/lib/python3.10/site-packages/serial_motor_demo/__init__.py to __init__.cpython-310.pyc
+[2.566s] byte-compiling /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_demo/lib/python3.10/site-packages/serial_motor_demo/driver.py to driver.cpython-310.pyc
+[2.567s] running install_data
+[2.567s] creating /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_demo/share/ament_index
+[2.567s] creating /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_demo/share/ament_index/resource_index
+[2.567s] creating /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_demo/share/ament_index/resource_index/packages
+[2.567s] copying resource/serial_motor_demo -> /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_demo/share/ament_index/resource_index/packages
+[2.568s] copying package.xml -> /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_demo/share/serial_motor_demo
+[2.568s] running install_egg_info
+[2.570s] Copying ../../build/serial_motor_demo/serial_motor_demo.egg-info to /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_demo/lib/python3.10/site-packages/serial_motor_demo-0.0.0-py3.10.egg-info
+[2.571s] running install_scripts
+[2.602s] Installing driver script to /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_demo/lib/serial_motor_demo
+[2.603s] writing list of installed files to '/home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/build/serial_motor_demo/install.log'
+[2.657s] Invoked command in '/home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/src/serial_motor_demo' returned '0': PYTHONPATH=/home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/build/serial_motor_demo/prefix_override:/home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/serial_motor_demo build --build-base /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/build/serial_motor_demo/build install --record /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/build/serial_motor_demo/install.log --single-version-externally-managed install_data

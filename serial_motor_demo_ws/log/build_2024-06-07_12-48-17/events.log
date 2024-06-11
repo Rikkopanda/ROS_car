@@ -1,0 +1,4 @@
+[0.000000] (-) TimerEvent: {}
+[0.000256] (-) JobUnselected: {'identifier': 'serial_motor_demo'}
+[0.000354] (-) JobUnselected: {'identifier': 'serial_motor_msgs'}
+[0.000683] (-) EventReactorShutdown: {}

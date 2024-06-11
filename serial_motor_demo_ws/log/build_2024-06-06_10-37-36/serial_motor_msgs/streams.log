@@ -1,0 +1,191 @@
+[0.028s] Invoking command in '/home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/build/serial_motor_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/build/serial_motor_msgs -- -j8 -l8
+[0.230s] [35m[1mConsolidate compiler generated dependencies of target serial_motor_msgs__rosidl_generator_c[0m
+[0.242s] [  2%] Built target serial_motor_msgs__cpp
+[0.251s] [ 12%] Built target serial_motor_msgs__rosidl_generator_c
+[0.297s] [35m[1mConsolidate compiler generated dependencies of target serial_motor_msgs__rosidl_typesupport_fastrtps_c[0m
+[0.297s] [35m[1mConsolidate compiler generated dependencies of target serial_motor_msgs__rosidl_typesupport_introspection_c[0m
+[0.314s] [ 12%] Built target ament_cmake_python_copy_serial_motor_msgs
+[0.320s] [ 23%] Built target serial_motor_msgs__rosidl_typesupport_introspection_c
+[0.326s] [35m[1mConsolidate compiler generated dependencies of target serial_motor_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[0.328s] [ 34%] Built target serial_motor_msgs__rosidl_typesupport_fastrtps_c
+[0.328s] [35m[1mConsolidate compiler generated dependencies of target serial_motor_msgs__rosidl_typesupport_c[0m
+[0.330s] [35m[1mConsolidate compiler generated dependencies of target serial_motor_msgs__rosidl_typesupport_cpp[0m
+[0.334s] [35m[1mConsolidate compiler generated dependencies of target serial_motor_msgs__rosidl_typesupport_introspection_cpp[0m
+[0.352s] [ 44%] Built target serial_motor_msgs__rosidl_typesupport_c
+[0.361s] [ 65%] Built target serial_motor_msgs__rosidl_typesupport_cpp
+[0.361s] [ 65%] Built target serial_motor_msgs__rosidl_typesupport_fastrtps_cpp
+[0.362s] [ 76%] Built target serial_motor_msgs__rosidl_typesupport_introspection_cpp
+[0.393s] [ 76%] Built target serial_motor_msgs
+[0.422s] [ 78%] Built target serial_motor_msgs__py
+[0.442s] [35m[1mConsolidate compiler generated dependencies of target serial_motor_msgs__rosidl_generator_py[0m
+[0.463s] [ 87%] Built target serial_motor_msgs__rosidl_generator_py
+[0.507s] [35m[1mConsolidate compiler generated dependencies of target serial_motor_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[0.507s] [35m[1mConsolidate compiler generated dependencies of target serial_motor_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.507s] [35m[1mConsolidate compiler generated dependencies of target serial_motor_msgs__rosidl_typesupport_c__pyext[0m
+[0.531s] [ 91%] Built target serial_motor_msgs__rosidl_typesupport_c__pyext
+[0.531s] [ 95%] Built target serial_motor_msgs__rosidl_typesupport_introspection_c__pyext
+[0.535s] [100%] Built target serial_motor_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.935s] running egg_info
+[0.937s] writing serial_motor_msgs.egg-info/PKG-INFO
+[0.937s] writing dependency_links to serial_motor_msgs.egg-info/dependency_links.txt
+[0.937s] writing top-level names to serial_motor_msgs.egg-info/top_level.txt
+[0.944s] reading manifest file 'serial_motor_msgs.egg-info/SOURCES.txt'
+[0.946s] writing manifest file 'serial_motor_msgs.egg-info/SOURCES.txt'
+[0.993s] [100%] Built target ament_cmake_python_build_serial_motor_msgs_egg
+[1.009s] Invoked command in '/home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/build/serial_motor_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/build/serial_motor_msgs -- -j8 -l8
+[1.161s] Invoking command in '/home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/build/serial_motor_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/build/serial_motor_msgs
+[1.216s] -- Install configuration: ""
+[1.219s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/share/ament_index/resource_index/rosidl_interfaces/serial_motor_msgs
+[1.219s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs
+[1.219s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg
+[1.219s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/motor_vels.h
+[1.220s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/detail
+[1.220s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/detail/encoder_vals__struct.h
+[1.220s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/detail/motor_vels__type_support.h
+[1.220s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/detail/encoder_vals__functions.h
+[1.220s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/detail/motor_command__functions.h
+[1.221s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/detail/encoder_vals__type_support.h
+[1.221s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/detail/motor_vels__struct.h
+[1.221s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/detail/motor_command__struct.h
+[1.221s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/detail/motor_command__functions.c
+[1.221s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/detail/motor_vels__functions.c
+[1.222s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/detail/motor_command__type_support.h
+[1.222s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/detail/motor_vels__functions.h
+[1.222s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/detail/encoder_vals__functions.c
+[1.222s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/rosidl_generator_c__visibility_control.h
+[1.222s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/encoder_vals.h
+[1.223s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/motor_command.h
+[1.223s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/share/serial_motor_msgs/environment/library_path.sh
+[1.223s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/share/serial_motor_msgs/environment/library_path.dsv
+[1.235s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/lib/libserial_motor_msgs__rosidl_generator_c.so
+[1.235s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs
+[1.235s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg
+[1.235s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.236s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/detail
+[1.236s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/detail/encoder_vals__rosidl_typesupport_fastrtps_c.h
+[1.236s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/detail/motor_vels__rosidl_typesupport_fastrtps_c.h
+[1.236s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/detail/motor_command__rosidl_typesupport_fastrtps_c.h
+[1.257s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/lib/libserial_motor_msgs__rosidl_typesupport_fastrtps_c.so
+[1.258s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs
+[1.258s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg
+[1.258s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.259s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/detail
+[1.259s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/detail/motor_vels__rosidl_typesupport_introspection_c.h
+[1.259s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/detail/encoder_vals__type_support.c
+[1.259s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/detail/motor_command__rosidl_typesupport_introspection_c.h
+[1.259s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/detail/encoder_vals__rosidl_typesupport_introspection_c.h
+[1.260s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/detail/motor_command__type_support.c
+[1.260s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/detail/motor_vels__type_support.c
+[1.290s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/lib/libserial_motor_msgs__rosidl_typesupport_introspection_c.so
+[1.291s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/lib/libserial_motor_msgs__rosidl_typesupport_c.so
+[1.292s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs
+[1.292s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg
+[1.292s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/encoder_vals.hpp
+[1.293s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/detail
+[1.293s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/detail/motor_command__builder.hpp
+[1.293s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/detail/motor_command__struct.hpp
+[1.293s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/detail/encoder_vals__traits.hpp
+[1.294s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/detail/motor_command__traits.hpp
+[1.294s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/detail/encoder_vals__struct.hpp
+[1.294s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/detail/motor_vels__builder.hpp
+[1.294s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/detail/motor_vels__struct.hpp
+[1.294s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/detail/motor_vels__traits.hpp
+[1.295s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/detail/encoder_vals__builder.hpp
+[1.295s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/motor_command.hpp
+[1.295s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/motor_vels.hpp
+[1.295s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs
+[1.295s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg
+[1.295s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.296s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/detail
+[1.296s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/detail/dds_fastrtps
+[1.296s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/detail/encoder_vals__rosidl_typesupport_fastrtps_cpp.hpp
+[1.296s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/detail/motor_vels__rosidl_typesupport_fastrtps_cpp.hpp
+[1.296s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/detail/motor_command__rosidl_typesupport_fastrtps_cpp.hpp
+[1.315s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/lib/libserial_motor_msgs__rosidl_typesupport_fastrtps_cpp.so
+[1.316s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs
+[1.316s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg
+[1.316s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/detail
+[1.317s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/detail/encoder_vals__rosidl_typesupport_introspection_cpp.hpp
+[1.317s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/detail/encoder_vals__type_support.cpp
+[1.317s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/detail/motor_command__type_support.cpp
+[1.317s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/detail/motor_command__rosidl_typesupport_introspection_cpp.hpp
+[1.317s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/detail/motor_vels__rosidl_typesupport_introspection_cpp.hpp
+[1.318s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/detail/motor_vels__type_support.cpp
+[1.349s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/lib/libserial_motor_msgs__rosidl_typesupport_introspection_cpp.so
+[1.354s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/lib/libserial_motor_msgs__rosidl_typesupport_cpp.so
+[1.354s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/share/serial_motor_msgs/environment/pythonpath.sh
+[1.354s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/share/serial_motor_msgs/environment/pythonpath.dsv
+[1.354s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/local/lib/python3.10/dist-packages/serial_motor_msgs-0.0.0-py3.10.egg-info
+[1.355s] -- Installing: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/local/lib/python3.10/dist-packages/serial_motor_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.355s] -- Installing: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/local/lib/python3.10/dist-packages/serial_motor_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.355s] -- Installing: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/local/lib/python3.10/dist-packages/serial_motor_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[1.355s] -- Installing: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/local/lib/python3.10/dist-packages/serial_motor_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[1.356s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/local/lib/python3.10/dist-packages/serial_motor_msgs
+[1.356s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/local/lib/python3.10/dist-packages/serial_motor_msgs/_serial_motor_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.356s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/local/lib/python3.10/dist-packages/serial_motor_msgs/serial_motor_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.356s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/local/lib/python3.10/dist-packages/serial_motor_msgs/_serial_motor_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[1.356s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/local/lib/python3.10/dist-packages/serial_motor_msgs/__init__.py
+[1.357s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/local/lib/python3.10/dist-packages/serial_motor_msgs/serial_motor_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.357s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/local/lib/python3.10/dist-packages/serial_motor_msgs/msg
+[1.357s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/local/lib/python3.10/dist-packages/serial_motor_msgs/msg/__init__.py
+[1.357s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/local/lib/python3.10/dist-packages/serial_motor_msgs/msg/_motor_vels_s.c
+[1.357s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/local/lib/python3.10/dist-packages/serial_motor_msgs/msg/_motor_vels.py
+[1.358s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/local/lib/python3.10/dist-packages/serial_motor_msgs/msg/_encoder_vals_s.c
+[1.358s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/local/lib/python3.10/dist-packages/serial_motor_msgs/msg/_motor_command.py
+[1.358s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/local/lib/python3.10/dist-packages/serial_motor_msgs/msg/_motor_command_s.c
+[1.358s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/local/lib/python3.10/dist-packages/serial_motor_msgs/msg/_encoder_vals.py
+[1.358s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/local/lib/python3.10/dist-packages/serial_motor_msgs/libserial_motor_msgs__rosidl_generator_py.so
+[1.359s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/local/lib/python3.10/dist-packages/serial_motor_msgs/serial_motor_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.359s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/local/lib/python3.10/dist-packages/serial_motor_msgs/_serial_motor_msgs_s.ep.rosidl_typesupport_c.c
+[1.497s] Listing '/home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/local/lib/python3.10/dist-packages/serial_motor_msgs'...
+[1.497s] Listing '/home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/local/lib/python3.10/dist-packages/serial_motor_msgs/msg'...
+[1.529s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/local/lib/python3.10/dist-packages/serial_motor_msgs/serial_motor_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.530s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/local/lib/python3.10/dist-packages/serial_motor_msgs/serial_motor_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.551s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/local/lib/python3.10/dist-packages/serial_motor_msgs/serial_motor_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.554s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/lib/libserial_motor_msgs__rosidl_generator_py.so
+[1.554s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/share/serial_motor_msgs/msg/MotorCommand.idl
+[1.554s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/share/serial_motor_msgs/msg/MotorVels.idl
+[1.555s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/share/serial_motor_msgs/msg/EncoderVals.idl
+[1.555s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/share/serial_motor_msgs/msg/MotorCommand.msg
+[1.555s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/share/serial_motor_msgs/msg/MotorVels.msg
+[1.555s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/share/serial_motor_msgs/msg/EncoderVals.msg
+[1.555s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/share/ament_index/resource_index/package_run_dependencies/serial_motor_msgs
+[1.556s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/share/ament_index/resource_index/parent_prefix_path/serial_motor_msgs
+[1.556s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/share/serial_motor_msgs/environment/ament_prefix_path.sh
+[1.556s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/share/serial_motor_msgs/environment/ament_prefix_path.dsv
+[1.556s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/share/serial_motor_msgs/environment/path.sh
+[1.556s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/share/serial_motor_msgs/environment/path.dsv
+[1.556s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/share/serial_motor_msgs/local_setup.bash
+[1.557s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/share/serial_motor_msgs/local_setup.sh
+[1.557s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/share/serial_motor_msgs/local_setup.zsh
+[1.557s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/share/serial_motor_msgs/local_setup.dsv
+[1.557s] -- Installing: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/share/serial_motor_msgs/package.dsv
+[1.557s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/share/ament_index/resource_index/packages/serial_motor_msgs
+[1.557s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/share/serial_motor_msgs/cmake/export_serial_motor_msgs__rosidl_generator_cExport.cmake
+[1.558s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/share/serial_motor_msgs/cmake/export_serial_motor_msgs__rosidl_generator_cExport-noconfig.cmake
+[1.558s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/share/serial_motor_msgs/cmake/export_serial_motor_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[1.558s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/share/serial_motor_msgs/cmake/export_serial_motor_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.576s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/share/serial_motor_msgs/cmake/serial_motor_msgs__rosidl_typesupport_introspection_cExport.cmake
+[1.576s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/share/serial_motor_msgs/cmake/serial_motor_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.605s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/share/serial_motor_msgs/cmake/serial_motor_msgs__rosidl_typesupport_cExport.cmake
+[1.605s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/share/serial_motor_msgs/cmake/serial_motor_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[1.627s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/share/serial_motor_msgs/cmake/export_serial_motor_msgs__rosidl_generator_cppExport.cmake
+[1.628s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/share/serial_motor_msgs/cmake/export_serial_motor_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.628s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/share/serial_motor_msgs/cmake/export_serial_motor_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.630s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/share/serial_motor_msgs/cmake/serial_motor_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[1.630s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/share/serial_motor_msgs/cmake/serial_motor_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.630s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/share/serial_motor_msgs/cmake/serial_motor_msgs__rosidl_typesupport_cppExport.cmake
+[1.630s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/share/serial_motor_msgs/cmake/serial_motor_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[1.631s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/share/serial_motor_msgs/cmake/export_serial_motor_msgs__rosidl_generator_pyExport.cmake
+[1.631s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/share/serial_motor_msgs/cmake/export_serial_motor_msgs__rosidl_generator_pyExport-noconfig.cmake
+[1.631s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/share/serial_motor_msgs/cmake/rosidl_cmake-extras.cmake
+[1.632s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/share/serial_motor_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.632s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/share/serial_motor_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[1.632s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/share/serial_motor_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[1.632s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/share/serial_motor_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.633s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/share/serial_motor_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.633s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/share/serial_motor_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.635s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/share/serial_motor_msgs/cmake/serial_motor_msgsConfig.cmake
+[1.635s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/share/serial_motor_msgs/cmake/serial_motor_msgsConfig-version.cmake
+[1.636s] -- Up-to-date: /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs/share/serial_motor_msgs/package.xml
+[1.637s] Invoked command in '/home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/build/serial_motor_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/build/serial_motor_msgs

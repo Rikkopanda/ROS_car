@@ -1,0 +1,20 @@
+[1.265s] Invoking command in '/home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/build/serial_motor_demo': CMAKE_PREFIX_PATH=/home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs:/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/cpp_srvcli PYTHONPATH=/home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/build/serial_motor_demo/prefix_override:/home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/build/serial_motor_demo/build --no-deps symlink_data --force
+[1.744s] running develop
+[2.071s] running egg_info
+[2.071s] writing serial_motor_demo.egg-info/PKG-INFO
+[2.071s] writing dependency_links to serial_motor_demo.egg-info/dependency_links.txt
+[2.072s] writing entry points to serial_motor_demo.egg-info/entry_points.txt
+[2.072s] writing requirements to serial_motor_demo.egg-info/requires.txt
+[2.072s] writing top-level names to serial_motor_demo.egg-info/top_level.txt
+[2.074s] reading manifest file 'serial_motor_demo.egg-info/SOURCES.txt'
+[2.136s] writing manifest file 'serial_motor_demo.egg-info/SOURCES.txt'
+[2.140s] running build_ext
+[2.140s] Creating /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_demo/lib/python3.10/site-packages/serial-motor-demo.egg-link (link to .)
+[2.142s] Installing driver script to /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_demo/lib/serial_motor_demo
+[2.142s] Installing gui script to /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_demo/lib/serial_motor_demo
+[2.142s] 
+[2.143s] Installed /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/build/serial_motor_demo
+[2.143s] running symlink_data
+[2.143s] symbolically linking /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/build/serial_motor_demo/resource/serial_motor_demo -> /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_demo/share/ament_index/resource_index/packages
+[2.143s] symbolically linking /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/build/serial_motor_demo/package.xml -> /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_demo/share/serial_motor_demo
+[2.192s] Invoked command in '/home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/build/serial_motor_demo' returned '0': CMAKE_PREFIX_PATH=/home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_msgs:/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/cpp_srvcli PYTHONPATH=/home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/build/serial_motor_demo/prefix_override:/home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/install/serial_motor_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/build/serial_motor_demo/build --no-deps symlink_data --force
