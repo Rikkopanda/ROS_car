@@ -9,3 +9,9 @@ Network address translation (NAT) is a method of mapping an IP address space int
 
 ![image](https://github.com/user-attachments/assets/abeca84f-86e8-4bd1-aba0-fd034f4ec5ff)
 ![image](https://github.com/user-attachments/assets/b51d7003-d1e3-4b91-9ffe-ec8ad6d93f87)
+
+
+
+wat is socket
+https://www.ibm.com/docs/en/aix/7.2?topic=sockets-interface
+
