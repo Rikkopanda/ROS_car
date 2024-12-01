@@ -1,4 +1,7 @@
 
+configureren netwerkadapters
+vim /etc/netplan/50-cloud-init.yaml
+
 veschil curl ifconfig.me & ifconfig -a of hostname -I
 ifconfig is grabbing your local, NAT'd IP address. curl ifconfig.me is grabbing the public IP provided to you by your ISP.
 
