@@ -4,3 +4,12 @@
 [submodule "Transeiving_Car_Test"]
 	path = Transeiving_Car_Test
 	url = https://github.com/Rikkopanda/pioDEMO1.git
+[submodule "microros_ws/src/uros/micro_ros_msgs"]
+	path = microros_ws/src/uros/micro_ros_msgs
+	url = https://github.com/micro-ROS/micro_ros_msgs.git
+[submodule "microros_ws/src/uros/micro-ROS-Agent"]
+	path = microros_ws/src/uros/micro-ROS-Agent
+	url = https://github.com/micro-ROS/micro-ROS-Agent.git
+[submodule "microros_ws/src/micro_ros_setup"]
+	path = microros_ws/src/micro_ros_setup
+	url = https://github.com/micro-ROS/micro_ros_setup.git

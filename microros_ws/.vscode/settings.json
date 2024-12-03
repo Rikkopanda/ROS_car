@@ -1,0 +1,20 @@
+{
+	"python.autoComplete.extraPaths": [
+		"/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/microros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages",
+		"/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/host_ros_control/install/serial_motor_demo/lib/python3.10/site-packages",
+		"/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/host_ros_control/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages",
+		"/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/host_ros_control/install/newpackage/lib/python3.10/site-packages",
+		"/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/host_ros_control/serial_motor_demo/install/serial_motor_demo/lib/python3.10/site-packages",
+		"/opt/ros/humble/lib/python3.10/site-packages",
+		"/opt/ros/humble/local/lib/python3.10/dist-packages"
+	],
+	"python.analysis.extraPaths": [
+		"/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/microros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages",
+		"/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/host_ros_control/install/serial_motor_demo/lib/python3.10/site-packages",
+		"/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/host_ros_control/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages",
+		"/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/host_ros_control/install/newpackage/lib/python3.10/site-packages",
+		"/home/rikverhoeven/Documents/mechatronic_projects/ROS_auto_robot/host_ros_control/serial_motor_demo/install/serial_motor_demo/lib/python3.10/site-packages",
+		"/opt/ros/humble/lib/python3.10/site-packages",
+		"/opt/ros/humble/local/lib/python3.10/dist-packages"
+	]
+}
