@@ -1,1 +1,0 @@
-string serial_msg
