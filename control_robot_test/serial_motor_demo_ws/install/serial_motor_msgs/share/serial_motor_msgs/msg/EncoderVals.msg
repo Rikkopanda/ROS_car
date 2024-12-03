@@ -1,1 +1,0 @@
-/home/rikverhoeven/Documents/coding/ROS_auto_robot/control_robot_test/serial_motor_demo_ws/src/serial_motor_msgs/msg/EncoderVals.msg

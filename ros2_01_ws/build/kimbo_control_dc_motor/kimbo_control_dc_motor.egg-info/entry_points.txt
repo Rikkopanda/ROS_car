@@ -1,4 +1,0 @@
-[console_scripts]
-make_turtle_circle = kimbo_control_dc_motor.draw_circle:main
-test_node_exec = kimbo_control_dc_motor.my_first_node:main
-
