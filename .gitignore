@@ -1,0 +1,8 @@
+
+# ROS framework
+build/
+log/
+install/
+
+# Python
+env/

@@ -40,12 +40,10 @@ class MotorGui(Node):
         mode_frame = Frame(root)
         mode_frame.pack(fill=X)
 
-
         self.mode_lbl = Label(mode_frame, text="ZZZZ")
         self.mode_lbl.pack(side=LEFT)
         self.mode_btn = Button(mode_frame, text="ZZZZ", command=self.switch_mode)
         self.mode_btn.pack(expand=True)
-
 
         slider_max_frame = Frame(root)
         slider_max_frame.pack(fill=X)
@@ -56,17 +54,16 @@ class MotorGui(Node):
         self.max_val_update_btn = Button(slider_max_frame, text='Update', command=self.update_scale_limits, state="disabled")
         self.max_val_update_btn.pack(side=LEFT)
 
-
         m1_frame = Frame(root)
         m1_frame.pack(fill=X)
         Label(m1_frame, text="Steer").pack(side=LEFT)
-        self.m1 = Scale(m1_frame, from_=-255, to=255, orient=HORIZONTAL)
+        self.m1 = Scale(m1_frame, from_=28, to=51, orient=HORIZONTAL, command=self.on_steer_change)
         self.m1.pack(side=LEFT, fill=X, expand=True)
-
+        print(self.m1.cget("from"), self.m1.cget("to"))
         m2_frame = Frame(root)
         m2_frame.pack(fill=X)
         Label(m2_frame, text="Drive").pack(side=LEFT)
-        self.m2 = Scale(m2_frame, from_=-255, to=255, resolution=1, orient=HORIZONTAL)
+        self.m2 = Scale(m2_frame, from_=29, to=44, resolution=1, orient=HORIZONTAL)
         self.m2.pack(side=LEFT, fill=X, expand=True)
 
         self.m2.config(to=10)
@@ -105,17 +102,25 @@ class MotorGui(Node):
     def show_values(self):
         print (self.m1.get(), self.m2.get())
 
+    def on_steer_change(self, value):
+        msg = SteerCommand()
+        msg.steer_pwm = float(value)
+        self.steer_pub.publish(msg)
+
     def send_motor_once(self):
         msg = MotorCommand()
         msg.is_pwm = self.pwm_mode
         if (self.pwm_mode):
-            msg.mot_1_req_rad_sec = float(self.m1.get())
+            # msg.mot_1_req_rad_sec = float(self.m1.get())
             msg.mot_2_req_rad_sec = float(self.m2.get())
         else:
-            msg.mot_1_req_rad_sec = float(self.m1.get()*2*math.pi)
+            # msg.mot_1_req_rad_sec = float(self.m1.get()*2*math.pi)
             msg.mot_2_req_rad_sec = float(self.m2.get()*2*math.pi)
-
         self.drive_pub.publish(msg)
+        
+        msg = SteerCommand()
+        msg.steer_pwm = float(self.m1.get())
+        self.steer_pub.publish(msg)
 
     def stop_motors(self):
         msg = MotorCommand()
@@ -139,7 +144,7 @@ class MotorGui(Node):
             self.slider_max_val_box.config(state="normal")
             self.max_val_update_btn.config(state="normal")
 
-        self.update_scale_limits()
+        # self.update_scale_limits()
 
     def motor_vel_callback(self, motor_vels):
         mot_1_spd_rev_sec = motor_vels.mot_1_rad_sec / (2*math.pi)

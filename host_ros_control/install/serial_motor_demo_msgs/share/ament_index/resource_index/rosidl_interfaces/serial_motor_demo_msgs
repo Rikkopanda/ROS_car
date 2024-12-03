@@ -4,3 +4,5 @@ msg/MotorCommand.idl
 msg/MotorCommand.msg
 msg/MotorVels.idl
 msg/MotorVels.msg
+msg/SteerCommand.idl
+msg/SteerCommand.msg
