@@ -1,0 +1,42 @@
+[1.836s] Invoking command in '/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/src/py_pubsub': PYTHONPATH=/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/build/py_pubsub/prefix_override:/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/build/py_pubsub/build install --record /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/build/py_pubsub/install.log --single-version-externally-managed install_data
+[2.235s] running egg_info
+[2.236s] creating ../../build/py_pubsub/py_pubsub.egg-info
+[2.236s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[2.236s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[2.237s] writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[2.237s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[2.237s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[2.238s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[2.240s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[2.240s] adding license file 'LICENSE'
+[2.241s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[2.241s] running build
+[2.241s] running build_py
+[2.241s] creating /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/build/py_pubsub/build
+[2.242s] creating /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/build/py_pubsub/build/lib
+[2.242s] creating /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/build/py_pubsub/build/lib/py_pubsub
+[2.242s] copying py_pubsub/subscriber_member_function.py -> /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/build/py_pubsub/build/lib/py_pubsub
+[2.242s] copying py_pubsub/__init__.py -> /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/build/py_pubsub/build/lib/py_pubsub
+[2.243s] copying py_pubsub/publisher_member_function.py -> /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/build/py_pubsub/build/lib/py_pubsub
+[2.243s] running install
+[2.243s] running install_lib
+[2.243s] creating /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[2.244s] copying /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/build/py_pubsub/build/lib/py_pubsub/subscriber_member_function.py -> /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[2.244s] copying /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/build/py_pubsub/build/lib/py_pubsub/__init__.py -> /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[2.245s] copying /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/build/py_pubsub/build/lib/py_pubsub/publisher_member_function.py -> /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[2.245s] byte-compiling /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/subscriber_member_function.py to subscriber_member_function.cpython-310.pyc
+[2.245s] byte-compiling /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/__init__.py to __init__.cpython-310.pyc
+[2.246s] byte-compiling /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/publisher_member_function.py to publisher_member_function.cpython-310.pyc
+[2.246s] running install_data
+[2.246s] creating /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/py_pubsub/share/ament_index
+[2.247s] creating /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/py_pubsub/share/ament_index/resource_index
+[2.247s] creating /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/py_pubsub/share/ament_index/resource_index/packages
+[2.247s] copying resource/py_pubsub -> /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/py_pubsub/share/ament_index/resource_index/packages
+[2.247s] copying package.xml -> /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/py_pubsub/share/py_pubsub
+[2.248s] running install_egg_info
+[2.249s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info
+[2.250s] running install_scripts
+[2.275s] Installing listener script to /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/py_pubsub/lib/py_pubsub
+[2.276s] Installing talker script to /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/py_pubsub/lib/py_pubsub
+[2.276s] writing list of installed files to '/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/build/py_pubsub/install.log'
+[2.344s] Invoked command in '/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/src/py_pubsub' returned '0': PYTHONPATH=/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/build/py_pubsub/prefix_override:/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/build/py_pubsub/build install --record /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/build/py_pubsub/install.log --single-version-externally-managed install_data

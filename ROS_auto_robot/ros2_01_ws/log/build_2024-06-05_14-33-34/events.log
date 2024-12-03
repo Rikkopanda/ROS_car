@@ -1,0 +1,299 @@
+[0.000000] (-) TimerEvent: {}
+[0.000209] (cpp_srvcli) JobQueued: {'identifier': 'cpp_srvcli', 'dependencies': OrderedDict()}
+[0.000263] (kimbo_control_dc_motor) JobQueued: {'identifier': 'kimbo_control_dc_motor', 'dependencies': OrderedDict()}
+[0.000307] (py_pubsub) JobQueued: {'identifier': 'py_pubsub', 'dependencies': OrderedDict()}
+[0.000414] (cpp_srvcli) JobStarted: {'identifier': 'cpp_srvcli'}
+[0.008932] (kimbo_control_dc_motor) JobStarted: {'identifier': 'kimbo_control_dc_motor'}
+[0.016816] (py_pubsub) JobStarted: {'identifier': 'py_pubsub'}
+[0.099817] (-) TimerEvent: {}
+[0.201317] (-) TimerEvent: {}
+[0.301761] (-) TimerEvent: {}
+[0.402101] (-) TimerEvent: {}
+[0.502474] (-) TimerEvent: {}
+[0.602911] (-) TimerEvent: {}
+[0.703328] (-) TimerEvent: {}
+[0.803733] (-) TimerEvent: {}
+[0.904221] (-) TimerEvent: {}
+[0.911235] (cpp_srvcli) JobProgress: {'identifier': 'cpp_srvcli', 'progress': 'cmake'}
+[0.912242] (cpp_srvcli) Command: {'cmd': ['/usr/bin/cmake', '/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/src/cpp_srvcli', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/cpp_srvcli'], 'cwd': '/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/build/cpp_srvcli', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rikverhoeven'), ('LC_TIME', 'nl_NL.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rikverhoeven'), ('OLDPWD', '/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('SYSTEMD_EXEC_PID', '2054'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rikverhoeven'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rikverhoeven'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/rikverhoeven/.local/bin:/home/rikverhoeven/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/rikverhoeven/bin'), ('SESSION_MANAGER', 'local/rikverhoeven-N56VM:@/tmp/.ICE-unix/2030,unix/rikverhoeven-N56VM:/tmp/.ICE-unix/2030'), ('GTK3_MODULES', 'xapp-gtk3-module'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/36055b38_2e2b_47ae_8460_5f98fea767c6'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.223'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '201'), ('AMENT_PREFIX_PATH', '/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/kimbo_control_dc_motor:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/build/cpp_srvcli'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/kimbo_control_dc_motor/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/kimbo_control_dc_motor:/opt/ros/humble')]), 'shell': False}
+[1.004314] (-) TimerEvent: {}
+[1.104660] (-) TimerEvent: {}
+[1.204997] (-) TimerEvent: {}
+[1.305328] (-) TimerEvent: {}
+[1.405702] (-) TimerEvent: {}
+[1.506131] (-) TimerEvent: {}
+[1.606742] (-) TimerEvent: {}
+[1.707298] (-) TimerEvent: {}
+[1.784011] (py_pubsub) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/build/py_pubsub/build', '--no-deps', 'symlink_data'], 'cwd': '/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/build/py_pubsub', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'rikverhoeven', 'LC_TIME': 'nl_NL.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/rikverhoeven', 'OLDPWD': '/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'nl_NL.UTF-8', 'SYSTEMD_EXEC_PID': '2054', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'rikverhoeven', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'rikverhoeven', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '1', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/rikverhoeven/.local/bin:/home/rikverhoeven/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/rikverhoeven/bin', 'SESSION_MANAGER': 'local/rikverhoeven-N56VM:@/tmp/.ICE-unix/2030,unix/rikverhoeven-N56VM:/tmp/.ICE-unix/2030', 'GTK3_MODULES': 'xapp-gtk3-module', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'nl_NL.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/36055b38_2e2b_47ae_8460_5f98fea767c6', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'nl_NL.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.223', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '201', 'AMENT_PREFIX_PATH': '/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/kimbo_control_dc_motor:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'nl_NL.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'nl_NL.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'nl_NL.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/build/py_pubsub', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/build/py_pubsub/prefix_override:/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/py_pubsub/lib/python3.10/site-packages:/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/kimbo_control_dc_motor/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'nl_NL.UTF-8', 'LC_PAPER': 'nl_NL.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.787021] (kimbo_control_dc_motor) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/build/kimbo_control_dc_motor/build', '--no-deps', 'symlink_data'], 'cwd': '/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/build/kimbo_control_dc_motor', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'rikverhoeven', 'LC_TIME': 'nl_NL.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/rikverhoeven', 'OLDPWD': '/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'nl_NL.UTF-8', 'SYSTEMD_EXEC_PID': '2054', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'rikverhoeven', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'rikverhoeven', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '1', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/rikverhoeven/.local/bin:/home/rikverhoeven/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/rikverhoeven/bin', 'SESSION_MANAGER': 'local/rikverhoeven-N56VM:@/tmp/.ICE-unix/2030,unix/rikverhoeven-N56VM:/tmp/.ICE-unix/2030', 'GTK3_MODULES': 'xapp-gtk3-module', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'nl_NL.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/36055b38_2e2b_47ae_8460_5f98fea767c6', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'nl_NL.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.223', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '201', 'AMENT_PREFIX_PATH': '/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/kimbo_control_dc_motor:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'nl_NL.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'nl_NL.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'nl_NL.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/build/kimbo_control_dc_motor', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/build/kimbo_control_dc_motor/prefix_override:/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/kimbo_control_dc_motor/lib/python3.10/site-packages:/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/kimbo_control_dc_motor/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'nl_NL.UTF-8', 'LC_PAPER': 'nl_NL.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.807413] (-) TimerEvent: {}
+[1.907834] (-) TimerEvent: {}
+[2.008225] (-) TimerEvent: {}
+[2.108614] (-) TimerEvent: {}
+[2.209007] (-) TimerEvent: {}
+[2.249361] (py_pubsub) StdoutLine: {'line': b'running develop\n'}
+[2.250550] (kimbo_control_dc_motor) StdoutLine: {'line': b'running develop\n'}
+[2.309268] (-) TimerEvent: {}
+[2.376459] (cpp_srvcli) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[2.409391] (-) TimerEvent: {}
+[2.509793] (-) TimerEvent: {}
+[2.610195] (-) TimerEvent: {}
+[2.610668] (py_pubsub) StdoutLine: {'line': b'running egg_info\n'}
+[2.611052] (py_pubsub) StdoutLine: {'line': b'writing py_pubsub.egg-info/PKG-INFO\n'}
+[2.611405] (py_pubsub) StdoutLine: {'line': b'writing dependency_links to py_pubsub.egg-info/dependency_links.txt\n'}
+[2.611706] (py_pubsub) StdoutLine: {'line': b'writing entry points to py_pubsub.egg-info/entry_points.txt\n'}
+[2.611970] (py_pubsub) StdoutLine: {'line': b'writing requirements to py_pubsub.egg-info/requires.txt\n'}
+[2.612249] (py_pubsub) StdoutLine: {'line': b'writing top-level names to py_pubsub.egg-info/top_level.txt\n'}
+[2.615657] (kimbo_control_dc_motor) StdoutLine: {'line': b'running egg_info\n'}
+[2.615978] (py_pubsub) StdoutLine: {'line': b"reading manifest file 'py_pubsub.egg-info/SOURCES.txt'\n"}
+[2.616220] (kimbo_control_dc_motor) StdoutLine: {'line': b'writing kimbo_control_dc_motor.egg-info/PKG-INFO\n'}
+[2.616455] (kimbo_control_dc_motor) StdoutLine: {'line': b'writing dependency_links to kimbo_control_dc_motor.egg-info/dependency_links.txt\n'}
+[2.616684] (kimbo_control_dc_motor) StdoutLine: {'line': b'writing entry points to kimbo_control_dc_motor.egg-info/entry_points.txt\n'}
+[2.616909] (kimbo_control_dc_motor) StdoutLine: {'line': b'writing requirements to kimbo_control_dc_motor.egg-info/requires.txt\n'}
+[2.617121] (kimbo_control_dc_motor) StdoutLine: {'line': b'writing top-level names to kimbo_control_dc_motor.egg-info/top_level.txt\n'}
+[2.619144] (kimbo_control_dc_motor) StdoutLine: {'line': b"reading manifest file 'kimbo_control_dc_motor.egg-info/SOURCES.txt'\n"}
+[2.620545] (kimbo_control_dc_motor) StdoutLine: {'line': b"writing manifest file 'kimbo_control_dc_motor.egg-info/SOURCES.txt'\n"}
+[2.622461] (kimbo_control_dc_motor) StdoutLine: {'line': b'running build_ext\n'}
+[2.622898] (kimbo_control_dc_motor) StdoutLine: {'line': b'Creating /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/kimbo_control_dc_motor/lib/python3.10/site-packages/kimbo-control-dc-motor.egg-link (link to .)\n'}
+[2.623968] (kimbo_control_dc_motor) StdoutLine: {'line': b'Installing make_turtle_circle script to /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/kimbo_control_dc_motor/lib/kimbo_control_dc_motor\n'}
+[2.662365] (kimbo_control_dc_motor) StdoutLine: {'line': b'Installing test_node_exec script to /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/kimbo_control_dc_motor/lib/kimbo_control_dc_motor\n'}
+[2.662809] (kimbo_control_dc_motor) StdoutLine: {'line': b'\n'}
+[2.663088] (kimbo_control_dc_motor) StdoutLine: {'line': b'Installed /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/build/kimbo_control_dc_motor\n'}
+[2.663365] (kimbo_control_dc_motor) StdoutLine: {'line': b'running symlink_data\n'}
+[2.701196] (kimbo_control_dc_motor) CommandEnded: {'returncode': 0}
+[2.702717] (py_pubsub) StdoutLine: {'line': b"writing manifest file 'py_pubsub.egg-info/SOURCES.txt'\n"}
+[2.704801] (py_pubsub) StdoutLine: {'line': b'running build_ext\n'}
+[2.705187] (py_pubsub) StdoutLine: {'line': b'Creating /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/py_pubsub/lib/python3.10/site-packages/py-pubsub.egg-link (link to .)\n'}
+[2.706441] (py_pubsub) StdoutLine: {'line': b'Installing listener script to /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/py_pubsub/lib/py_pubsub\n'}
+[2.706704] (py_pubsub) StdoutLine: {'line': b'Installing talker script to /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/py_pubsub/lib/py_pubsub\n'}
+[2.707135] (py_pubsub) StdoutLine: {'line': b'\n'}
+[2.707377] (py_pubsub) StdoutLine: {'line': b'Installed /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/build/py_pubsub\n'}
+[2.707621] (py_pubsub) StdoutLine: {'line': b'running symlink_data\n'}
+[2.710262] (-) TimerEvent: {}
+[2.781793] (kimbo_control_dc_motor) JobEnded: {'identifier': 'kimbo_control_dc_motor', 'rc': 0}
+[2.785052] (py_pubsub) CommandEnded: {'returncode': 0}
+[2.810540] (-) TimerEvent: {}
+[2.840163] (py_pubsub) JobEnded: {'identifier': 'py_pubsub', 'rc': 0}
+[2.910728] (-) TimerEvent: {}
+[3.011457] (-) TimerEvent: {}
+[3.112159] (-) TimerEvent: {}
+[3.146692] (cpp_srvcli) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[3.212308] (-) TimerEvent: {}
+[3.219524] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.312431] (-) TimerEvent: {}
+[3.412948] (-) TimerEvent: {}
+[3.513448] (-) TimerEvent: {}
+[3.534763] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.549919] (cpp_srvcli) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.550636] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.578092] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.584383] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.613570] (-) TimerEvent: {}
+[3.714055] (-) TimerEvent: {}
+[3.770410] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.789064] (cpp_srvcli) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.789586] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.790742] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.814233] (-) TimerEvent: {}
+[3.881146] (cpp_srvcli) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.914382] (-) TimerEvent: {}
+[4.014862] (-) TimerEvent: {}
+[4.115279] (-) TimerEvent: {}
+[4.215625] (-) TimerEvent: {}
+[4.261804] (cpp_srvcli) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[4.315735] (-) TimerEvent: {}
+[4.416053] (-) TimerEvent: {}
+[4.483943] (cpp_srvcli) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[4.516320] (-) TimerEvent: {}
+[4.617136] (-) TimerEvent: {}
+[4.717922] (-) TimerEvent: {}
+[4.771784] (cpp_srvcli) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[4.818122] (-) TimerEvent: {}
+[4.918806] (-) TimerEvent: {}
+[5.019691] (-) TimerEvent: {}
+[5.120555] (-) TimerEvent: {}
+[5.123535] (cpp_srvcli) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[5.171302] (cpp_srvcli) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[5.220811] (-) TimerEvent: {}
+[5.222628] (cpp_srvcli) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[5.320980] (-) TimerEvent: {}
+[5.387987] (cpp_srvcli) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.421134] (-) TimerEvent: {}
+[5.492270] (cpp_srvcli) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.521266] (-) TimerEvent: {}
+[5.621726] (-) TimerEvent: {}
+[5.722269] (-) TimerEvent: {}
+[5.748773] (cpp_srvcli) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[5.756836] (cpp_srvcli) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[5.822365] (-) TimerEvent: {}
+[5.922819] (-) TimerEvent: {}
+[6.023488] (-) TimerEvent: {}
+[6.124009] (-) TimerEvent: {}
+[6.224803] (-) TimerEvent: {}
+[6.315139] (cpp_srvcli) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[6.324916] (-) TimerEvent: {}
+[6.390325] (cpp_srvcli) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[6.425021] (-) TimerEvent: {}
+[6.480617] (cpp_srvcli) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[6.525265] (-) TimerEvent: {}
+[6.584869] (cpp_srvcli) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[6.625482] (-) TimerEvent: {}
+[6.726063] (-) TimerEvent: {}
+[6.751788] (cpp_srvcli) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[6.752367] (cpp_srvcli) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[6.826169] (-) TimerEvent: {}
+[6.896482] (cpp_srvcli) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[6.898162] (cpp_srvcli) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[6.926307] (-) TimerEvent: {}
+[7.026662] (-) TimerEvent: {}
+[7.127027] (-) TimerEvent: {}
+[7.227385] (-) TimerEvent: {}
+[7.327740] (-) TimerEvent: {}
+[7.345894] (cpp_srvcli) StdoutLine: {'line': b'-- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)\n'}
+[7.427867] (-) TimerEvent: {}
+[7.528229] (-) TimerEvent: {}
+[7.617299] (cpp_srvcli) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[7.628487] (-) TimerEvent: {}
+[7.729184] (-) TimerEvent: {}
+[7.829599] (-) TimerEvent: {}
+[7.899889] (cpp_srvcli) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[7.900384] (cpp_srvcli) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[7.900674] (cpp_srvcli) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[7.901681] (cpp_srvcli) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[7.903878] (cpp_srvcli) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[7.904146] (cpp_srvcli) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[7.904954] (cpp_srvcli) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[7.929736] (-) TimerEvent: {}
+[7.945552] (cpp_srvcli) StdoutLine: {'line': b'-- Configuring done\n'}
+[7.992860] (cpp_srvcli) StdoutLine: {'line': b'-- Generating done\n'}
+[7.996561] (cpp_srvcli) StdoutLine: {'line': b'-- Build files have been written to: /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/build/cpp_srvcli\n'}
+[8.013476] (cpp_srvcli) CommandEnded: {'returncode': 0}
+[8.015470] (cpp_srvcli) JobProgress: {'identifier': 'cpp_srvcli', 'progress': 'build'}
+[8.020281] (cpp_srvcli) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/build/cpp_srvcli', '--', '-j8', '-l8'], 'cwd': '/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/build/cpp_srvcli', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rikverhoeven'), ('LC_TIME', 'nl_NL.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rikverhoeven'), ('OLDPWD', '/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('SYSTEMD_EXEC_PID', '2054'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rikverhoeven'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rikverhoeven'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/rikverhoeven/.local/bin:/home/rikverhoeven/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/rikverhoeven/bin'), ('SESSION_MANAGER', 'local/rikverhoeven-N56VM:@/tmp/.ICE-unix/2030,unix/rikverhoeven-N56VM:/tmp/.ICE-unix/2030'), ('GTK3_MODULES', 'xapp-gtk3-module'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/36055b38_2e2b_47ae_8460_5f98fea767c6'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.223'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '201'), ('AMENT_PREFIX_PATH', '/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/kimbo_control_dc_motor:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/build/cpp_srvcli'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/kimbo_control_dc_motor/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/kimbo_control_dc_motor:/opt/ros/humble')]), 'shell': False}
+[8.029825] (-) TimerEvent: {}
+[8.093614] (cpp_srvcli) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o\x1b[0m\n'}
+[8.094038] (cpp_srvcli) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o\x1b[0m\n'}
+[8.129946] (-) TimerEvent: {}
+[8.230293] (-) TimerEvent: {}
+[8.330667] (-) TimerEvent: {}
+[8.431092] (-) TimerEvent: {}
+[8.531539] (-) TimerEvent: {}
+[8.632000] (-) TimerEvent: {}
+[8.732449] (-) TimerEvent: {}
+[8.832950] (-) TimerEvent: {}
+[8.933596] (-) TimerEvent: {}
+[9.034011] (-) TimerEvent: {}
+[9.134454] (-) TimerEvent: {}
+[9.234901] (-) TimerEvent: {}
+[9.335283] (-) TimerEvent: {}
+[9.435664] (-) TimerEvent: {}
+[9.536107] (-) TimerEvent: {}
+[9.636568] (-) TimerEvent: {}
+[9.736973] (-) TimerEvent: {}
+[9.837340] (-) TimerEvent: {}
+[9.937735] (-) TimerEvent: {}
+[10.038093] (-) TimerEvent: {}
+[10.138549] (-) TimerEvent: {}
+[10.245776] (-) TimerEvent: {}
+[10.346571] (-) TimerEvent: {}
+[10.447139] (-) TimerEvent: {}
+[10.547560] (-) TimerEvent: {}
+[10.647957] (-) TimerEvent: {}
+[10.748379] (-) TimerEvent: {}
+[10.848925] (-) TimerEvent: {}
+[10.949651] (-) TimerEvent: {}
+[11.050021] (-) TimerEvent: {}
+[11.150504] (-) TimerEvent: {}
+[11.251286] (-) TimerEvent: {}
+[11.352071] (-) TimerEvent: {}
+[11.452819] (-) TimerEvent: {}
+[11.553568] (-) TimerEvent: {}
+[11.654130] (-) TimerEvent: {}
+[11.755030] (-) TimerEvent: {}
+[11.860244] (-) TimerEvent: {}
+[11.960634] (-) TimerEvent: {}
+[12.061012] (-) TimerEvent: {}
+[12.161424] (-) TimerEvent: {}
+[12.261874] (-) TimerEvent: {}
+[12.362689] (-) TimerEvent: {}
+[12.463562] (-) TimerEvent: {}
+[12.564333] (-) TimerEvent: {}
+[12.664934] (-) TimerEvent: {}
+[12.765671] (-) TimerEvent: {}
+[12.866169] (-) TimerEvent: {}
+[12.966876] (-) TimerEvent: {}
+[13.067259] (-) TimerEvent: {}
+[13.167638] (-) TimerEvent: {}
+[13.268050] (-) TimerEvent: {}
+[13.368417] (-) TimerEvent: {}
+[13.468837] (-) TimerEvent: {}
+[13.569244] (-) TimerEvent: {}
+[13.669663] (-) TimerEvent: {}
+[13.770069] (-) TimerEvent: {}
+[13.919977] (-) TimerEvent: {}
+[14.020343] (-) TimerEvent: {}
+[14.120728] (-) TimerEvent: {}
+[14.221091] (-) TimerEvent: {}
+[14.321439] (-) TimerEvent: {}
+[14.421805] (-) TimerEvent: {}
+[14.522226] (-) TimerEvent: {}
+[14.622656] (-) TimerEvent: {}
+[14.723076] (-) TimerEvent: {}
+[14.854500] (-) TimerEvent: {}
+[14.955194] (-) TimerEvent: {}
+[15.055614] (-) TimerEvent: {}
+[15.156027] (-) TimerEvent: {}
+[15.256500] (-) TimerEvent: {}
+[15.356932] (-) TimerEvent: {}
+[15.457417] (-) TimerEvent: {}
+[15.557987] (-) TimerEvent: {}
+[15.658707] (-) TimerEvent: {}
+[15.759253] (-) TimerEvent: {}
+[15.859709] (-) TimerEvent: {}
+[15.960123] (-) TimerEvent: {}
+[16.060540] (-) TimerEvent: {}
+[16.160953] (-) TimerEvent: {}
+[16.261413] (-) TimerEvent: {}
+[16.361772] (-) TimerEvent: {}
+[16.462116] (-) TimerEvent: {}
+[16.474450] (cpp_srvcli) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable server\x1b[0m\n'}
+[16.562238] (-) TimerEvent: {}
+[16.632011] (cpp_srvcli) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable client\x1b[0m\n'}
+[16.662370] (-) TimerEvent: {}
+[16.762789] (-) TimerEvent: {}
+[16.863287] (-) TimerEvent: {}
+[16.964059] (-) TimerEvent: {}
+[17.064961] (-) TimerEvent: {}
+[17.165553] (-) TimerEvent: {}
+[17.266482] (-) TimerEvent: {}
+[17.352509] (cpp_srvcli) StdoutLine: {'line': b'[100%] Built target server\n'}
+[17.365393] (cpp_srvcli) StdoutLine: {'line': b'[100%] Built target client\n'}
+[17.366542] (-) TimerEvent: {}
+[17.381501] (cpp_srvcli) CommandEnded: {'returncode': 0}
+[17.423343] (cpp_srvcli) JobProgress: {'identifier': 'cpp_srvcli', 'progress': 'install'}
+[17.435315] (cpp_srvcli) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/build/cpp_srvcli'], 'cwd': '/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/build/cpp_srvcli', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rikverhoeven'), ('LC_TIME', 'nl_NL.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rikverhoeven'), ('OLDPWD', '/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('SYSTEMD_EXEC_PID', '2054'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rikverhoeven'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rikverhoeven'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/rikverhoeven/.local/bin:/home/rikverhoeven/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/rikverhoeven/bin'), ('SESSION_MANAGER', 'local/rikverhoeven-N56VM:@/tmp/.ICE-unix/2030,unix/rikverhoeven-N56VM:/tmp/.ICE-unix/2030'), ('GTK3_MODULES', 'xapp-gtk3-module'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/36055b38_2e2b_47ae_8460_5f98fea767c6'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.223'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '201'), ('AMENT_PREFIX_PATH', '/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/kimbo_control_dc_motor:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/build/cpp_srvcli'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/kimbo_control_dc_motor/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/kimbo_control_dc_motor:/opt/ros/humble')]), 'shell': False}
+[17.446566] (cpp_srvcli) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[17.447384] (cpp_srvcli) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[17.448068] (cpp_srvcli) StdoutLine: {'line': b'-- Symlinking: /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/cpp_srvcli/lib/cpp_srvcli/server\n'}
+[17.459826] (cpp_srvcli) StdoutLine: {'line': b'-- Symlinking: /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli\n'}
+[17.466648] (-) TimerEvent: {}
+[17.471092] (cpp_srvcli) StdoutLine: {'line': b'-- Symlinking: /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli\n'}
+[17.482596] (cpp_srvcli) StdoutLine: {'line': b'-- Symlinking: /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh\n'}
+[17.495120] (cpp_srvcli) StdoutLine: {'line': b'-- Symlinking: /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv\n'}
+[17.517613] (cpp_srvcli) StdoutLine: {'line': b'-- Symlinking: /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh\n'}
+[17.531176] (cpp_srvcli) StdoutLine: {'line': b'-- Symlinking: /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv\n'}
+[17.543378] (cpp_srvcli) StdoutLine: {'line': b'-- Symlinking: /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash\n'}
+[17.556379] (cpp_srvcli) StdoutLine: {'line': b'-- Symlinking: /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh\n'}
+[17.566779] (-) TimerEvent: {}
+[17.569183] (cpp_srvcli) StdoutLine: {'line': b'-- Symlinking: /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh\n'}
+[17.580925] (cpp_srvcli) StdoutLine: {'line': b'-- Symlinking: /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv\n'}
+[17.593002] (cpp_srvcli) StdoutLine: {'line': b'-- Symlinking: /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/cpp_srvcli/share/cpp_srvcli/package.dsv\n'}
+[17.608010] (cpp_srvcli) StdoutLine: {'line': b'-- Symlinking: /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli\n'}
+[17.620824] (cpp_srvcli) StdoutLine: {'line': b'-- Symlinking: /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake\n'}
+[17.633385] (cpp_srvcli) StdoutLine: {'line': b'-- Symlinking: /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake\n'}
+[17.646491] (cpp_srvcli) StdoutLine: {'line': b'-- Symlinking: /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/cpp_srvcli/share/cpp_srvcli/package.xml\n'}
+[17.666992] (cpp_srvcli) CommandEnded: {'returncode': 0}
+[17.668288] (-) TimerEvent: {}
+[17.768876] (-) TimerEvent: {}
+[17.813888] (cpp_srvcli) JobEnded: {'identifier': 'cpp_srvcli', 'rc': 0}
+[17.815103] (-) EventReactorShutdown: {}

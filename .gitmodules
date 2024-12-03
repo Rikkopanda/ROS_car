@@ -1,0 +1,3 @@
+[submodule "ROS_auto_robot/oefen_rf/NRF24L01-PA-LNA-Testing-Scripts"]
+	path = ROS_auto_robot/oefen_rf/NRF24L01-PA-LNA-Testing-Scripts
+	url = git@github.com:moggiex/NRF24L01-PA-LNA-Testing-Scripts.git

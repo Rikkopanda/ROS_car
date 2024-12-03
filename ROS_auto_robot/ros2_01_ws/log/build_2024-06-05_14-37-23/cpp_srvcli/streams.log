@@ -1,0 +1,24 @@
+[0.037s] Invoking command in '/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/py_pubsub:/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/kimbo_control_dc_motor:/opt/ros/humble /usr/bin/cmake --build /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/build/cpp_srvcli -- -j8 -l8
+[0.535s] [ 50%] Built target server
+[0.537s] [100%] Built target client
+[0.973s] Invoked command in '/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/py_pubsub:/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/kimbo_control_dc_motor:/opt/ros/humble /usr/bin/cmake --build /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/build/cpp_srvcli -- -j8 -l8
+[1.032s] Invoking command in '/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/py_pubsub:/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/kimbo_control_dc_motor:/opt/ros/humble /usr/bin/cmake --install /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/build/cpp_srvcli
+[1.041s] -- Install configuration: ""
+[1.042s] -- Execute custom install script
+[1.042s] -- Up-to-date symlink: /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/cpp_srvcli/lib/cpp_srvcli/server
+[1.043s] -- Up-to-date symlink: /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli
+[1.043s] -- Up-to-date symlink: /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli
+[1.044s] -- Up-to-date symlink: /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh
+[1.044s] -- Up-to-date symlink: /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv
+[1.044s] -- Up-to-date symlink: /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh
+[1.045s] -- Up-to-date symlink: /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv
+[1.045s] -- Up-to-date symlink: /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash
+[1.045s] -- Up-to-date symlink: /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh
+[1.046s] -- Up-to-date symlink: /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh
+[1.046s] -- Up-to-date symlink: /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv
+[1.046s] -- Symlinking: /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/cpp_srvcli/share/cpp_srvcli/package.dsv
+[1.058s] -- Up-to-date symlink: /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli
+[1.058s] -- Up-to-date symlink: /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake
+[1.059s] -- Up-to-date symlink: /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake
+[1.059s] -- Up-to-date symlink: /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/cpp_srvcli/share/cpp_srvcli/package.xml
+[1.062s] Invoked command in '/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/py_pubsub:/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/kimbo_control_dc_motor:/opt/ros/humble /usr/bin/cmake --install /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/build/cpp_srvcli

@@ -1,0 +1,21 @@
+running egg_info
+writing ../../build/kimbo_control_dc_motor/kimbo_control_dc_motor.egg-info/PKG-INFO
+writing dependency_links to ../../build/kimbo_control_dc_motor/kimbo_control_dc_motor.egg-info/dependency_links.txt
+writing entry points to ../../build/kimbo_control_dc_motor/kimbo_control_dc_motor.egg-info/entry_points.txt
+writing requirements to ../../build/kimbo_control_dc_motor/kimbo_control_dc_motor.egg-info/requires.txt
+writing top-level names to ../../build/kimbo_control_dc_motor/kimbo_control_dc_motor.egg-info/top_level.txt
+reading manifest file '../../build/kimbo_control_dc_motor/kimbo_control_dc_motor.egg-info/SOURCES.txt'
+writing manifest file '../../build/kimbo_control_dc_motor/kimbo_control_dc_motor.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying package.xml -> /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/kimbo_control_dc_motor/share/kimbo_control_dc_motor
+running install_egg_info
+removing '/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/kimbo_control_dc_motor/lib/python3.10/site-packages/kimbo_control_dc_motor-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/kimbo_control_dc_motor/kimbo_control_dc_motor.egg-info to /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/kimbo_control_dc_motor/lib/python3.10/site-packages/kimbo_control_dc_motor-0.0.0-py3.10.egg-info
+running install_scripts
+Installing make_turtle_circle script to /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/kimbo_control_dc_motor/lib/kimbo_control_dc_motor
+Installing test_node_exec script to /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/kimbo_control_dc_motor/lib/kimbo_control_dc_motor
+writing list of installed files to '/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/build/kimbo_control_dc_motor/install.log'

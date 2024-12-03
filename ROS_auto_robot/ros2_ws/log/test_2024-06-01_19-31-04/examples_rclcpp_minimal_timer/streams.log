@@ -1,0 +1,65 @@
+[0.184s] Invoking command in '/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_ws/build/examples_rclcpp_minimal_timer': /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.230s] UpdateCTestConfiguration  from :/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_ws/build/examples_rclcpp_minimal_timer/CTestConfiguration.ini
+[0.230s] Parse Config file:/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_ws/build/examples_rclcpp_minimal_timer/CTestConfiguration.ini
+[0.230s]    Site: rikverhoeven-N56VM
+[0.230s]    Build name: (empty)
+[0.231s]  Add coverage exclude regular expressions.
+[0.231s] Create new tag: 20240601-1731 - Experimental
+[0.232s] UpdateCTestConfiguration  from :/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_ws/build/examples_rclcpp_minimal_timer/CTestConfiguration.ini
+[0.234s] Parse Config file:/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_ws/build/examples_rclcpp_minimal_timer/CTestConfiguration.ini
+[0.235s] Test project /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_ws/build/examples_rclcpp_minimal_timer
+[0.235s] Constructing a list of tests
+[0.235s] Done constructing a list of tests
+[0.236s] Updating test list for fixtures
+[0.236s] Added 0 tests to meet fixture requirements
+[0.236s] Checking test dependency graph...
+[0.236s] Checking test dependency graph end
+[0.237s] test 1
+[0.238s]                                         Start 1: copyright
+[0.240s] 1/6 Test #1: copyright ........................***Not Run   0.00 sec
+[0.241s] test 2
+[0.242s]                                         Start 2: cppcheck
+[0.242s] 2/6 Test #2: cppcheck .........................***Not Run   0.00 sec
+[0.243s] test 3
+[0.243s]                                         Start 3: cpplint
+[0.243s] 3/6 Test #3: cpplint ..........................***Not Run   0.00 sec
+[0.245s] test 4
+[0.245s]                                         Start 4: lint_cmake
+[0.245s] 4/6 Test #4: lint_cmake .......................***Not Run   0.00 sec
+[0.246s] test 5
+[0.246s]                                         Start 5: uncrustify
+[0.246s] Failed to change working directory to /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_ws/src/src/examples/rclcpp/timers/minimal_timer : No such file or directory
+[0.247s] Failed to change working directory to /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_ws/src/src/examples/rclcpp/timers/minimal_timer : No such file or directory
+[0.247s] Failed to change working directory to /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_ws/src/src/examples/rclcpp/timers/minimal_timer : No such file or directory
+[0.247s] Failed to change working directory to /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_ws/src/src/examples/rclcpp/timers/minimal_timer : No such file or directory
+[0.247s] Failed to change working directory to /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_ws/src/src/examples/rclcpp/timers/minimal_timer : No such file or directory
+[0.247s] Failed to change working directory to /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_ws/src/src/examples/rclcpp/timers/minimal_timer : No such file or directory
+[0.250s] 5/6 Test #5: uncrustify .......................***Not Run   0.00 sec
+[0.250s] test 6
+[0.250s]                                         Start 6: xmllint
+[0.251s] 6/6 Test #6: xmllint ..........................***Not Run   0.00 sec
+[0.251s] 
+[0.251s] 0% tests passed[0;0m, [0;31m6 tests failed[0;0m out of 6
+[0.251s] 
+[0.251s] Label Time Summary:
+[0.252s] copyright     =   0.00 sec*proc (1 test)
+[0.252s] cppcheck      =   0.00 sec*proc (1 test)
+[0.252s] cpplint       =   0.00 sec*proc (1 test)
+[0.252s] lint_cmake    =   0.00 sec*proc (1 test)
+[0.252s] linter        =   0.00 sec*proc (6 tests)
+[0.253s] uncrustify    =   0.00 sec*proc (1 test)
+[0.253s] xmllint       =   0.00 sec*proc (1 test)
+[0.253s] 
+[0.253s] Total Test time (real) =   0.00 sec
+[0.253s] 
+[0.253s] The following tests FAILED:
+[0.254s] 	[0;33m  1 - copyright (Not Run)[0;0m
+[0.254s] 	[0;33m  2 - cppcheck (Not Run)[0;0m
+[0.254s] 	[0;33m  3 - cpplint (Not Run)[0;0m
+[0.255s] 	[0;33m  4 - lint_cmake (Not Run)[0;0m
+[0.255s] 	[0;33m  5 - uncrustify (Not Run)[0;0m
+[0.255s] 	[0;33m  6 - xmllint (Not Run)[0;0m
+[0.267s] Errors while running CTest
+[0.267s] Output from these tests are in: /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_ws/build/examples_rclcpp_minimal_timer/Testing/Temporary/LastTest.log
+[0.268s] Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.
+[0.277s] Invoked command in '/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_ws/build/examples_rclcpp_minimal_timer' returned '8': /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

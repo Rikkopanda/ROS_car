@@ -1,0 +1,22 @@
+[2.994s] Invoking command in '/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_ws/src/examples/rclpy/topics/minimal_subscriber': PYTEST_ADDOPTS=--tb=short --junit-xml=/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_ws/build/examples_rclpy_minimal_subscriber/pytest.xml --junit-prefix=examples_rclpy_minimal_subscriber -o cache_dir=/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_ws/build/examples_rclpy_minimal_subscriber/.pytest_cache PYTHONDONTWRITEBYTECODE=1 /usr/bin/python3 -m pytest
+[3.497s] [1m============================= test session starts ==============================[0m
+[3.497s] platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0
+[3.504s] cachedir: /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_ws/build/examples_rclpy_minimal_subscriber/.pytest_cache
+[3.504s] rootdir: /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_ws/src/examples/rclpy, configfile: pytest.ini
+[3.504s] plugins: ament-lint-0.12.10, ament-pep257-0.12.10, ament-copyright-0.12.10, ament-xmllint-0.12.10, launch-testing-ros-0.19.7, ament-flake8-0.12.10, launch-testing-1.0.5, colcon-core-0.16.0, cov-3.0.0
+[3.612s] [1mcollecting ... [0m[1m
+[3.612s] collected 3 items                                                              [0m
+[3.613s] 
+[4.035s] test/test_copyright.py [32m.[0m[32m                                                 [ 33%][0m
+[4.178s] test/test_flake8.py [32m.[0m[33m                                                    [ 66%][0m
+[4.214s] test/test_pep257.py [32m.[0m[33m                                                    [100%][0m
+[4.214s] 
+[4.215s] - generated xml file: /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_ws/build/examples_rclpy_minimal_subscriber/pytest.xml -
+[4.215s] [33m=============================== warnings summary ===============================[0m
+[4.215s] topics/minimal_subscriber/test/test_flake8.py::test_flake8
+[4.215s] topics/minimal_subscriber/test/test_flake8.py::test_flake8
+[4.216s]   Warning: SelectableGroups dict interface is deprecated. Use select.
+[4.216s] 
+[4.216s] -- Docs: https://docs.pytest.org/en/stable/warnings.html
+[4.216s] [33m======================== [32m3 passed[0m, [33m[1m2 warnings[0m[33m in 0.72s[0m[33m =========================[0m
+[4.314s] Invoked command in '/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_ws/src/examples/rclpy/topics/minimal_subscriber' returned '0': PYTEST_ADDOPTS=--tb=short --junit-xml=/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_ws/build/examples_rclpy_minimal_subscriber/pytest.xml --junit-prefix=examples_rclpy_minimal_subscriber -o cache_dir=/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_ws/build/examples_rclpy_minimal_subscriber/.pytest_cache PYTHONDONTWRITEBYTECODE=1 /usr/bin/python3 -m pytest

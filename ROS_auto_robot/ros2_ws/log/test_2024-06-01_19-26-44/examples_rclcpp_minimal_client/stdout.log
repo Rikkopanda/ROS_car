@@ -1,0 +1,54 @@
+UpdateCTestConfiguration  from :/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_ws/build/examples_rclcpp_minimal_client/CTestConfiguration.ini
+Parse Config file:/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_ws/build/examples_rclcpp_minimal_client/CTestConfiguration.ini
+   Site: rikverhoeven-N56VM
+   Build name: (empty)
+ Add coverage exclude regular expressions.
+Create new tag: 20240601-1726 - Experimental
+UpdateCTestConfiguration  from :/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_ws/build/examples_rclcpp_minimal_client/CTestConfiguration.ini
+Parse Config file:/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_ws/build/examples_rclcpp_minimal_client/CTestConfiguration.ini
+Test project /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_ws/build/examples_rclcpp_minimal_client
+Constructing a list of tests
+Done constructing a list of tests
+Updating test list for fixtures
+Added 0 tests to meet fixture requirements
+Checking test dependency graph...
+Checking test dependency graph end
+test 1
+                                        Start 1: copyright
+1/6 Test #1: copyright ........................***Not Run   0.00 sec
+test 2
+                                        Start 2: cppcheck
+2/6 Test #2: cppcheck .........................***Not Run   0.00 sec
+test 3
+                                        Start 3: cpplint
+3/6 Test #3: cpplint ..........................***Not Run   0.00 sec
+test 4
+                                        Start 4: lint_cmake
+4/6 Test #4: lint_cmake .......................***Not Run   0.00 sec
+test 5
+                                        Start 5: uncrustify
+5/6 Test #5: uncrustify .......................***Not Run   0.00 sec
+test 6
+                                        Start 6: xmllint
+6/6 Test #6: xmllint ..........................***Not Run   0.00 sec
+
+0% tests passed[0;0m, [0;31m6 tests failed[0;0m out of 6
+
+Label Time Summary:
+copyright     =   0.00 sec*proc (1 test)
+cppcheck      =   0.00 sec*proc (1 test)
+cpplint       =   0.00 sec*proc (1 test)
+lint_cmake    =   0.00 sec*proc (1 test)
+linter        =   0.00 sec*proc (6 tests)
+uncrustify    =   0.00 sec*proc (1 test)
+xmllint       =   0.00 sec*proc (1 test)
+
+Total Test time (real) =   0.00 sec
+
+The following tests FAILED:
+	[0;33m  1 - copyright (Not Run)[0;0m
+	[0;33m  2 - cppcheck (Not Run)[0;0m
+	[0;33m  3 - cpplint (Not Run)[0;0m
+	[0;33m  4 - lint_cmake (Not Run)[0;0m
+	[0;33m  5 - uncrustify (Not Run)[0;0m
+	[0;33m  6 - xmllint (Not Run)[0;0m

@@ -1,0 +1,65 @@
+[0.490s] Invoking command in '/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_ws/build/examples_rclcpp_minimal_service': /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.633s] Failed to change working directory to /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_ws/src/src/examples/rclcpp/services/minimal_service : No such file or directory
+[0.634s] Failed to change working directory to /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_ws/src/src/examples/rclcpp/services/minimal_service : No such file or directory
+[0.634s] Failed to change working directory to /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_ws/src/src/examples/rclcpp/services/minimal_service : No such file or directory
+[0.634s] Failed to change working directory to /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_ws/src/src/examples/rclcpp/services/minimal_service : No such file or directory
+[0.634s] Failed to change working directory to /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_ws/src/src/examples/rclcpp/services/minimal_service : No such file or directory
+[0.634s] Failed to change working directory to /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_ws/src/src/examples/rclcpp/services/minimal_service : No such file or directory
+[0.635s] UpdateCTestConfiguration  from :/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_ws/build/examples_rclcpp_minimal_service/CTestConfiguration.ini
+[0.635s] Parse Config file:/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_ws/build/examples_rclcpp_minimal_service/CTestConfiguration.ini
+[0.635s]    Site: rikverhoeven-N56VM
+[0.635s]    Build name: (empty)
+[0.636s]  Add coverage exclude regular expressions.
+[0.636s] Create new tag: 20240601-1726 - Experimental
+[0.636s] UpdateCTestConfiguration  from :/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_ws/build/examples_rclcpp_minimal_service/CTestConfiguration.ini
+[0.636s] Parse Config file:/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_ws/build/examples_rclcpp_minimal_service/CTestConfiguration.ini
+[0.636s] Test project /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_ws/build/examples_rclcpp_minimal_service
+[0.637s] Constructing a list of tests
+[0.637s] Done constructing a list of tests
+[0.637s] Updating test list for fixtures
+[0.637s] Added 0 tests to meet fixture requirements
+[0.637s] Checking test dependency graph...
+[0.638s] Checking test dependency graph end
+[0.638s] test 1
+[0.638s]                                         Start 1: copyright
+[0.638s] 1/6 Test #1: copyright ........................***Not Run   0.00 sec
+[0.638s] test 2
+[0.639s]                                         Start 2: cppcheck
+[0.639s] 2/6 Test #2: cppcheck .........................***Not Run   0.00 sec
+[0.639s] test 3
+[0.639s]                                         Start 3: cpplint
+[0.639s] 3/6 Test #3: cpplint ..........................***Not Run   0.00 sec
+[0.640s] test 4
+[0.640s]                                         Start 4: lint_cmake
+[0.640s] 4/6 Test #4: lint_cmake .......................***Not Run   0.00 sec
+[0.640s] test 5
+[0.640s]                                         Start 5: uncrustify
+[0.641s] 5/6 Test #5: uncrustify .......................***Not Run   0.00 sec
+[0.641s] test 6
+[0.641s]                                         Start 6: xmllint
+[0.641s] 6/6 Test #6: xmllint ..........................***Not Run   0.00 sec
+[0.642s] 
+[0.642s] 0% tests passed[0;0m, [0;31m6 tests failed[0;0m out of 6
+[0.642s] 
+[0.642s] Label Time Summary:
+[0.642s] copyright     =   0.00 sec*proc (1 test)
+[0.643s] cppcheck      =   0.00 sec*proc (1 test)
+[0.643s] cpplint       =   0.00 sec*proc (1 test)
+[0.643s] lint_cmake    =   0.00 sec*proc (1 test)
+[0.643s] linter        =   0.00 sec*proc (6 tests)
+[0.643s] uncrustify    =   0.00 sec*proc (1 test)
+[0.644s] xmllint       =   0.00 sec*proc (1 test)
+[0.644s] 
+[0.644s] Total Test time (real) =   0.00 sec
+[0.644s] 
+[0.644s] The following tests FAILED:
+[0.645s] 	[0;33m  1 - copyright (Not Run)[0;0m
+[0.645s] 	[0;33m  2 - cppcheck (Not Run)[0;0m
+[0.645s] 	[0;33m  3 - cpplint (Not Run)[0;0m
+[0.645s] 	[0;33m  4 - lint_cmake (Not Run)[0;0m
+[0.645s] 	[0;33m  5 - uncrustify (Not Run)[0;0m
+[0.646s] 	[0;33m  6 - xmllint (Not Run)[0;0m
+[0.646s] Errors while running CTest
+[0.646s] Output from these tests are in: /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_ws/build/examples_rclcpp_minimal_service/Testing/Temporary/LastTest.log
+[0.646s] Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.
+[0.669s] Invoked command in '/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_ws/build/examples_rclcpp_minimal_service' returned '8': /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

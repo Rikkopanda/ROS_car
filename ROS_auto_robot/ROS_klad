@@ -1,0 +1,40 @@
+
+
+sourcing setup.bash, it runs script and copies env vars that setup.bash uses in its own enviroment, to the source calling shell enviroment
+
+
+
+
+
+package.xml file containing meta information about the package
+
+CMakeLists.txt file that describes how to build the code within the package
+
+
+colcon build, build all the packages in the workspace
+
+
+
+make ros2 run excecutable from a new node:
+in setup.py entry_points
+
+
+rosdep will check for package.xml files in its path or for a specific package and find the rosdep keys stored within.
+rosdep check --from-paths src --ignore-src
+
+show msg
+ros2 interface package serial_motor_msgs
+ros2 interface show serial_motor_msgs/msg/MotorVels
+
+pass arguments
+ros2 run package exe_name --ros-args -p param_name:=param_value
+
+
+COMMON ERRORS
+-----------------
+colcon build error: deprecated
+
+pip3 list | grep setup
+setuptools                           69.5.1
+
+set old setuptools version

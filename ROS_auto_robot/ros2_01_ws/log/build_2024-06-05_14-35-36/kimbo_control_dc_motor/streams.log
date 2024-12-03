@@ -1,0 +1,18 @@
+[1.617s] Invoking command in '/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/build/kimbo_control_dc_motor': PYTHONPATH=/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/build/kimbo_control_dc_motor/prefix_override:/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/kimbo_control_dc_motor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/build/kimbo_control_dc_motor/build --no-deps symlink_data
+[2.060s] running develop
+[2.350s] running egg_info
+[2.351s] writing kimbo_control_dc_motor.egg-info/PKG-INFO
+[2.351s] writing dependency_links to kimbo_control_dc_motor.egg-info/dependency_links.txt
+[2.352s] writing entry points to kimbo_control_dc_motor.egg-info/entry_points.txt
+[2.352s] writing requirements to kimbo_control_dc_motor.egg-info/requires.txt
+[2.352s] writing top-level names to kimbo_control_dc_motor.egg-info/top_level.txt
+[2.354s] reading manifest file 'kimbo_control_dc_motor.egg-info/SOURCES.txt'
+[2.357s] writing manifest file 'kimbo_control_dc_motor.egg-info/SOURCES.txt'
+[2.359s] running build_ext
+[2.360s] Creating /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/kimbo_control_dc_motor/lib/python3.10/site-packages/kimbo-control-dc-motor.egg-link (link to .)
+[2.361s] Installing make_turtle_circle script to /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/kimbo_control_dc_motor/lib/kimbo_control_dc_motor
+[2.361s] Installing test_node_exec script to /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/kimbo_control_dc_motor/lib/kimbo_control_dc_motor
+[2.361s] 
+[2.362s] Installed /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/build/kimbo_control_dc_motor
+[2.362s] running symlink_data
+[2.412s] Invoked command in '/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/build/kimbo_control_dc_motor' returned '0': PYTHONPATH=/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/build/kimbo_control_dc_motor/prefix_override:/home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/install/kimbo_control_dc_motor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/rikverhoeven/Documents/coding/ROS_auto_robot/ros2_01_ws/build/kimbo_control_dc_motor/build --no-deps symlink_data

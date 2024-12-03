@@ -1,0 +1,12 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from serial_motor_msgs/msg/SerialLog.msg
+// generated code does not contain a copyright notice
+
+
+module serial_motor_msgs {
+  module msg {
+    struct SerialLog {
+      string serial_msg;
+    };
+  };
+};

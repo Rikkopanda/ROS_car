@@ -1,0 +1,3 @@
+source;share/serial_motor_demo/hook/pythonpath.ps1
+source;share/serial_motor_demo/hook/pythonpath.dsv
+source;share/serial_motor_demo/hook/pythonpath.sh
