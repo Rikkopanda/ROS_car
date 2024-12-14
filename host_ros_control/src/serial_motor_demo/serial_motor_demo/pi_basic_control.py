@@ -33,6 +33,8 @@ class RCCarController(Node):
         self.declare_parameter('drive_speed', 5)  # PWM or rad/s for driving
         self.declare_parameter('steer_speed', 1)  # PWM or rad/s for driving
 
+        print("hello")
+        
         # State variables
         self.manual_mode = False
         self.manual_steer_value = 0
@@ -90,9 +92,9 @@ class RCCarController(Node):
 def main(args=None):
     rclpy.init(args=args)
     rc_car_controller = RCCarController()
-    
+
     rclpy.spin(rc_car_controller)
-    
+
     rc_car_controller.destroy_node()
     rclpy.shutdown()
 

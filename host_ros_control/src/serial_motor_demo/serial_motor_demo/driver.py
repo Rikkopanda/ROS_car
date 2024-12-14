@@ -8,9 +8,19 @@ import time
 import math
 import serial
 from threading import Lock
+import inspect
 
 #sharing data with esp32 c++ side?
 
+
+def log_function_name(func):
+    def wrapper(*args, **kwargs):
+        print(f"Calling function: {func.__name__}")
+        return func(*args, **kwargs)
+    return wrapper
+
+def example_function():
+    print("Doing something!")
 
 class MotorDriver(Node):
 
@@ -26,14 +36,13 @@ class MotorDriver(Node):
         if (self.get_parameter('loop_rate').value == 0):
             print("WARNING! LOOP RATE SET TO 0!!")
 
-
         self.declare_parameter('serial_port', value="/dev/ttyUSB1")
         self.serial_port = self.get_parameter('serial_port').value
-
 
         self.declare_parameter('baud_rate', value=115200)
         self.baud_rate = self.get_parameter('baud_rate').value
 
+        self.declare_parameter('dry_test', False)  # Cycles per second
 
         self.declare_parameter('serial_debug', value=False)
         self.debug_serial_cmds = self.get_parameter('serial_debug').value
@@ -59,7 +68,7 @@ class MotorDriver(Node):
         self.speed_pub = self.create_publisher(MotorVels, 'motor_vels', 10)
 
         self.encoder_pub = self.create_publisher(EncoderVals, 'encoder_vals', 10)
-        
+
         # Member Variables
 
         self.last_enc_read_time = time.time()
@@ -71,10 +80,12 @@ class MotorDriver(Node):
         self.mutex = Lock()
 
         # Open serial comms
-
-        print(f"Connecting to port {self.serial_port} at {self.baud_rate}.")
-        self.conn = serial.Serial(self.serial_port, self.baud_rate, timeout=1.0)
-        print(f"Connected to {self.conn}")
+        if (self.get_parameter('dry_test').value == False):
+            print(f"Connecting to port {self.serial_port} at {self.baud_rate}.")
+            self.conn = serial.Serial(self.serial_port, self.baud_rate, timeout=1.0)
+            print(f"Connected to {self.conn}")
+        else:
+            print(f"Dry test = True, so no connect attempt")
 
 
     # Raw serial commands
@@ -136,10 +147,17 @@ class MotorDriver(Node):
             enc_msg.mot_2_enc_val = self.last_m2_enc
             self.encoder_pub.publish(enc_msg)
 
-    # Utility functions
+    # Outputs:
+    # Calling function: example_function
+    # Doing something!
 
+    # Utility functions
+    @log_function_name
     def send_command(self, cmd_string):
-        
+        # print(f"current func name: {inspect.currentframe().f_code.co_name}")
+        if (self.get_parameter('dry_test').value == True):
+            print(f"Dry test = True, so no connect attempt")
+            return
         self.mutex.acquire()
         try:
             cmd_string += "\r"

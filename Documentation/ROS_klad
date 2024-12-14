@@ -38,3 +38,6 @@ pip3 list | grep setup
 setuptools                           69.5.1
 
 set old setuptools version
+
+ros2 command not found, possibly after update?? fix;
+https://askubuntu.com/questions/1510626/ros2-humble-installation-environment-setup-issue-ros2-command-not-found
