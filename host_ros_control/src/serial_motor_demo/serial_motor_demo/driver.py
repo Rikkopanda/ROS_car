@@ -36,7 +36,7 @@ class MotorDriver(Node):
         if (self.get_parameter('loop_rate').value == 0):
             print("WARNING! LOOP RATE SET TO 0!!")
 
-        self.declare_parameter('serial_port', value="/dev/ttyUSB1")
+        self.declare_parameter('serial_port', value="/dev/ttyUSB0")
         self.serial_port = self.get_parameter('serial_port').value
 
         self.declare_parameter('baud_rate', value=115200)
@@ -90,9 +90,9 @@ class MotorDriver(Node):
 
     # Raw serial commands
     
-    def send_pwm_steer_command(self, steer_pwm):
-        print(f"sending steer_pwm; S{int(steer_pwm)}")
-        self.send_command(f"S{int(steer_pwm)}\n")
+    def send_pwm_steer_command(self, steer_percentage):
+        print(f"sending steer_percentage; S{int(steer_percentage)}")
+        self.send_command(f"S{int(steer_percentage)}\n")
 
     def send_pwm_motor_command(self, mot_1_pwm, mot_2_pwm):
         self.send_command(f"o {int(mot_1_pwm)} {int(mot_2_pwm)}\n")
@@ -108,7 +108,7 @@ class MotorDriver(Node):
 
     def steer_command_callback(self, steer_command):
         print(f"steer_command_callback, steer_command; {steer_command}")
-        self.send_pwm_steer_command(steer_command.steer_pwm)
+        self.send_pwm_steer_command(steer_command.steer_percentage)
 
     def motor_command_callback(self, motor_command):
         if (motor_command.is_pwm):

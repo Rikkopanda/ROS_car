@@ -1,1 +1,1 @@
-float32 steer_pwm
+int32 steer_percentage

@@ -156,8 +156,6 @@ class MotorGui(Node):
         self.mot_1_enc_lbl.config(text=f"{encoder_vals.mot_1_enc_val}")
         self.mot_2_enc_lbl.config(text=f"{encoder_vals.mot_2_enc_val}")
 
-
-
     def switch_mode(self):
         self.set_mode(not self.pwm_mode)
 

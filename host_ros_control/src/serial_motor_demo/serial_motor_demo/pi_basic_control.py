@@ -59,7 +59,7 @@ class RCCarController(Node):
 
         # Publish steering command
         steer_msg = SteerCommand()
-        steer_msg.steer_pwm = steering_value
+        steer_msg.steer_percentage = steering_value
         self.steer_pub.publish(steer_msg)
 
         # Publish constant drive command
@@ -71,11 +71,11 @@ class RCCarController(Node):
     def manual_steer_callback(self, msg):
         # Enter manual mode and store manual steering value
         self.manual_mode = True
-        self.manual_steer_value = msg.steer_pwm
+        self.manual_steer_value = msg.steer_percentage
 
         # Publish manual steering command
         steer_msg = SteerCommand()
-        steer_msg.steer_pwm = self.manual_steer_value
+        steer_msg.steer_percentage = self.manual_steer_value
         self.steer_pub.publish(steer_msg)
 
     def manual_drive_callback(self, msg):
