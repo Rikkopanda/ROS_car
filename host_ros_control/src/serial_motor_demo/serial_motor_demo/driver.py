@@ -2,6 +2,7 @@ import rclpy
 from rclpy.node import Node
 from serial_motor_demo_msgs.msg import MotorCommand
 from serial_motor_demo_msgs.msg import SteerCommand
+from serial_motor_demo_msgs.msg import DriveCommand
 from serial_motor_demo_msgs.msg import MotorVels
 from serial_motor_demo_msgs.msg import EncoderVals
 import time
@@ -11,7 +12,6 @@ from threading import Lock
 import inspect
 
 #sharing data with esp32 c++ side?
-
 
 def log_function_name(func):
     def wrapper(*args, **kwargs):
@@ -49,8 +49,6 @@ class MotorDriver(Node):
         if (self.debug_serial_cmds):
             print("Serial debug enabled")
 
-
-
         # Setup topics & services
 
         # self.subscription = self.create_subscription(
@@ -63,6 +61,12 @@ class MotorDriver(Node):
             SteerCommand,
             'steer_command',
             self.steer_command_callback,
+            10)
+
+        self.subscription = self.create_subscription(
+            DriveCommand,
+            'drive_command',
+            self.drive_command_callback,
             10)
 
         self.speed_pub = self.create_publisher(MotorVels, 'motor_vels', 10)
@@ -87,15 +91,7 @@ class MotorDriver(Node):
         else:
             print(f"Dry test = True, so no connect attempt")
 
-
     # Raw serial commands
-    
-    def send_pwm_steer_command(self, steer_percentage):
-        print(f"sending steer_percentage; S{int(steer_percentage)}")
-        self.send_command(f"S{int(steer_percentage)}\n")
-
-    def send_pwm_motor_command(self, mot_1_pwm, mot_2_pwm):
-        self.send_command(f"o {int(mot_1_pwm)} {int(mot_2_pwm)}\n")
 
     def send_feedback_motor_command(self, mot_1_ct_per_loop, mot_2_ct_per_loop):
         self.send_command(f"m {int(mot_1_ct_per_loop)} {int(mot_2_ct_per_loop)}\n")
@@ -106,19 +102,23 @@ class MotorDriver(Node):
             return [int(raw_enc) for raw_enc in resp.split()]
         return []
 
-    def steer_command_callback(self, steer_command):
-        print(f"steer_command_callback, steer_command; {steer_command}")
-        self.send_pwm_steer_command(steer_command.steer_percentage)
+    def steer_command_callback(self, steer_msg):
+        print(f"sending steer_percentage; {int(steer_msg.steer_percentage)}")
+        self.send_command(f"S{int(steer_msg.steer_percentage)}\n")
 
-    def motor_command_callback(self, motor_command):
-        if (motor_command.is_pwm):
-            self.send_pwm_motor_command(motor_command.mot_1_req_rad_sec, motor_command.mot_2_req_rad_sec)
-        else:
-            # counts per loop = req rads/sec X revs/rad X counts/rev X secs/loop 
-            scaler = (1 / (2*math.pi)) * self.get_parameter('encoder_cpr').value * (1 / self.get_parameter('loop_rate').value)
-            mot1_ct_per_loop = motor_command.mot_1_req_rad_sec * scaler
-            mot2_ct_per_loop = motor_command.mot_2_req_rad_sec * scaler
-            self.send_feedback_motor_command(mot1_ct_per_loop, mot2_ct_per_loop)
+    def drive_command_callback(self, drive_msg):
+        print(f"drive_command_callback, drive_command; {drive_msg.drive_percentage}")
+        self.send_command(f"D{int(drive_msg.drive_percentage)}\n")
+
+    # def motor_command_callback(self, motor_command):
+    #     if (motor_command.is_pwm):
+    #         self.send_pwm_motor_command(motor_command.mot_1_req_rad_sec, motor_command.mot_2_req_rad_sec)
+    #     else:
+    #         # counts per loop = req rads/sec X revs/rad X counts/rev X secs/loop 
+    #         scaler = (1 / (2*math.pi)) * self.get_parameter('encoder_cpr').value * (1 / self.get_parameter('loop_rate').value)
+    #         mot1_ct_per_loop = motor_command.mot_1_req_rad_sec * scaler
+    #         mot2_ct_per_loop = motor_command.mot_2_req_rad_sec * scaler
+    #         self.send_feedback_motor_command(mot1_ct_per_loop, mot2_ct_per_loop)
 
     def check_encoders(self):
         resp = self.send_encoder_read_command()
@@ -202,5 +202,3 @@ def main(args=None):
     motor_driver.close_conn()
     motor_driver.destroy_node()
     rclpy.shutdown()
-
-

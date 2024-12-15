@@ -5,6 +5,7 @@ import time
 
 from serial_motor_demo_msgs.msg import SteerCommand
 from serial_motor_demo_msgs.msg import MotorCommand
+from serial_motor_demo_msgs.msg import DriveCommand
 
 class RCCarController(Node):
     def __init__(self):
@@ -12,7 +13,8 @@ class RCCarController(Node):
 
         # Publishers for steering and motor commands
         self.steer_pub = self.create_publisher(SteerCommand, 'steer_command', 10)
-        self.drive_pub = self.create_publisher(MotorCommand, 'motor_command', 10)
+        # self.drive_pub = self.create_publisher(MotorCommand, 'motor_command', 10)
+        self.drive_pub = self.create_publisher(DriveCommand, 'drive_command', 10)
 
         # Subscription for manual override commands
         self.manual_steer_sub = self.create_subscription(
@@ -20,10 +22,10 @@ class RCCarController(Node):
             'manual_steer_command',
             self.manual_steer_callback,
             10)
-        
+
         self.manual_drive_sub = self.create_subscription(
-            MotorCommand,
-            'manual_motor_command',
+            DriveCommand,
+            'manual_drive_command',
             self.manual_drive_callback,
             10)
 
@@ -70,19 +72,23 @@ class RCCarController(Node):
 
     def manual_steer_callback(self, msg):
         # Enter manual mode and store manual steering value
-        self.manual_mode = True
-        self.manual_steer_value = msg.steer_percentage
+        # self.manual_mode = True
+        # self.manual_steer_value = msg.steer_percentage
 
         # Publish manual steering command
         steer_msg = SteerCommand()
-        steer_msg.steer_percentage = self.manual_steer_value
+        steer_msg.steer_percentage = msg.steer_percentage
         self.steer_pub.publish(steer_msg)
 
     def manual_drive_callback(self, msg):
         # Enter manual mode and store manual drive value
-        self.manual_mode = True
-        self.manual_drive_value = msg.mot_2_req_rad_sec
+        # self.manual_mode = True
+        # self.manual_drive_value = msg.mot_2_req_rad_sec
 
+
+        steer_msg = DriveCommand()
+        steer_msg.drive_percentage = msg.drive_percentage
+        self.steer_pub.publish(steer_msg)
         # Publish manual drive command
         # drive_msg = MotorCommand()
         # drive_msg.is_pwm = msg.is_pwm
