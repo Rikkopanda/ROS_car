@@ -44,7 +44,7 @@ class MotorDriver(Node):
 
         self.declare_parameter('dry_test', False)  # Cycles per second
 
-        self.declare_parameter('serial_debug', value=False)
+        self.declare_parameter('serial_debug', value=True)
         self.debug_serial_cmds = self.get_parameter('serial_debug').value
         if (self.debug_serial_cmds):
             print("Serial debug enabled")
