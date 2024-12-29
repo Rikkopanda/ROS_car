@@ -165,27 +165,26 @@ class MotorDriver(Node):
             if (self.debug_serial_cmds):
                 print("Sent: " + cmd_string)
 
-            # ## Adapted from original
-            # c = ''
-            # value = ''
-            # while c != '\r':
-            #     c = self.conn.read(1).decode("utf-8")
-            #     if (c == ''):
-            #         print("Error: Serial timeout on command: " + cmd_string)
-            #         return ''
-            #     value += c
+            ## Adapted from original
+            c = ''
+            value = ''
+            while c != '\r':
+                c = self.conn.read(1).decode("utf-8")
+                if (c == ''):
+                    print("Error: Serial timeout on command: " + cmd_string)
+                    return ''
+                value += c
 
-            # value = value.strip('\r')
+            value = value.strip('\r')
 
-            # if (self.debug_serial_cmds):
-            #     print("Received: " + value)
+            if (self.debug_serial_cmds):
+                print("Received: " + value)
             # return value
         finally:
             self.mutex.release()
 
     def close_conn(self):
         self.conn.close()
-
 
 
 def main(args=None):

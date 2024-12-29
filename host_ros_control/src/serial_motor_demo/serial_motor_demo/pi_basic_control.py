@@ -85,7 +85,6 @@ class RCCarController(Node):
         # self.manual_mode = True
         # self.manual_drive_value = msg.mot_2_req_rad_sec
 
-
         steer_msg = DriveCommand()
         steer_msg.drive_percentage = msg.drive_percentage
         self.steer_pub.publish(steer_msg)

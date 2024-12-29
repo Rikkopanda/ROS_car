@@ -57,17 +57,20 @@ class MotorGui(Node):
         m1_frame = Frame(root)
         m1_frame.pack(fill=X)
         Label(m1_frame, text="Steer").pack(side=LEFT)
-        self.m1 = Scale(m1_frame, from_=28, to=51, orient=HORIZONTAL, command=self.on_steer_change)
+        self.m1 = Scale(m1_frame, from_=0, to=100, orient=HORIZONTAL, command=self.on_steer_change)
         self.m1.pack(side=LEFT, fill=X, expand=True)
+        self.m1.set(50)
+
         print(self.m1.cget("from"), self.m1.cget("to"))
         m2_frame = Frame(root)
         m2_frame.pack(fill=X)
         Label(m2_frame, text="Drive").pack(side=LEFT)
-        self.m2 = Scale(m2_frame, from_=29, to=44, resolution=1, orient=HORIZONTAL)
+        self.m2 = Scale(m2_frame, from_=0, to=100, resolution=1, orient=HORIZONTAL)
         self.m2.pack(side=LEFT, fill=X, expand=True)
 
-        self.m2.config(to=10)
-
+        # self.m2.config(to=10)
+        self.m2.set(40)
+    
         motor_btns_frame = Frame(root)
         motor_btns_frame.pack()
         Button(motor_btns_frame, text='Send Once', command=self.send_motor_once).pack(side=LEFT)
@@ -104,7 +107,8 @@ class MotorGui(Node):
 
     def on_steer_change(self, value):
         msg = SteerCommand()
-        msg.steer_pwm = float(value)
+        # msg.steer_percentage = float(value)
+        msg.steer_percentage = int(value)
         self.steer_pub.publish(msg)
 
     def send_motor_once(self):
@@ -117,9 +121,9 @@ class MotorGui(Node):
             # msg.mot_1_req_rad_sec = float(self.m1.get()*2*math.pi)
             msg.mot_2_req_rad_sec = float(self.m2.get()*2*math.pi)
         self.drive_pub.publish(msg)
-        
+ 
         msg = SteerCommand()
-        msg.steer_pwm = float(self.m1.get())
+        msg.steer_percentage = float(self.m1.get())
         self.steer_pub.publish(msg)
 
     def stop_motors(self):
