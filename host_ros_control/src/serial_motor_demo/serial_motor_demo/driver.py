@@ -13,6 +13,18 @@ import inspect
 
 #sharing data with esp32 c++ side?
 
+class bcolors:
+    HEADER = '\033[95m'
+    OKBLUE = '\033[94m'
+    OKCYAN = '\033[96m'
+    OKGREEN = '\033[92m'
+    WARNING = '\033[93m'
+    FAIL = '\033[91m'
+    ENDC = '\033[0m'
+    BOLD = '\033[1m'
+    UNDERLINE = '\033[4m'
+
+
 def log_function_name(func):
     def wrapper(*args, **kwargs):
         print(f"Calling function: {func.__name__}")
@@ -171,14 +183,14 @@ class MotorDriver(Node):
             while c != '\r':
                 c = self.conn.read(1).decode("utf-8")
                 if (c == ''):
-                    print("Error: Serial timeout on command: " + cmd_string)
+                    print(bcolors.WARNING + "Error: Serial timeout on command: " + cmd_string + bcolors.ENDC)
                     return ''
                 value += c
 
             value = value.strip('\r')
 
             if (self.debug_serial_cmds):
-                print("Received: " + value)
+                print(bcolors.OKBLUE + "Received: " + value + bcolors.ENDC)
             # return value
         finally:
             self.mutex.release()
