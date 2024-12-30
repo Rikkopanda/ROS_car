@@ -3,7 +3,7 @@
 	url = git@github.com:moggiex/NRF24L01-PA-LNA-Testing-Scripts.git
 [submodule "Transeiving_Car_Test"]
 	path = Transeiving_Car_Test
-	url = https://github.com/Rikkopanda/pioDEMO1.git
+	url = git@github.com:Rikkopanda/Transeiving_car_test.git
 [submodule "microros_ws/src/uros/micro_ros_msgs"]
 	path = microros_ws/src/uros/micro_ros_msgs
 	url = https://github.com/micro-ROS/micro_ros_msgs.git
