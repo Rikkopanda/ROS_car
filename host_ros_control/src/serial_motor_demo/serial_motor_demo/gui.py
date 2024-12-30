@@ -5,6 +5,7 @@ from tkinter import *
 import math
 
 from serial_motor_demo_msgs.msg import SteerCommand
+from serial_motor_demo_msgs.msg import DriveCommand
 from serial_motor_demo_msgs.msg import MotorCommand
 from serial_motor_demo_msgs.msg import MotorVels
 from serial_motor_demo_msgs.msg import EncoderVals
@@ -15,8 +16,10 @@ class MotorGui(Node):
     def __init__(self):
         super().__init__('motor_gui')
 
-        self.drive_pub = self.create_publisher(MotorCommand, 'motor_command', 10)
+        #self.drive_pub = self.create_publisher(MotorCommand, 'motor_command', 10)
+        self.drive_pub = self.create_publisher(DriveCommand, 'drive_command', 10)
         self.steer_pub = self.create_publisher(SteerCommand, 'steer_command', 10)
+
 
         self.speed_sub = self.create_subscription(
             MotorVels,
@@ -39,6 +42,12 @@ class MotorGui(Node):
 
         mode_frame = Frame(root)
         mode_frame.pack(fill=X)
+
+        # Bind arrow keys to slider control
+        self.tk.bind('<Up>', self.increase_drive)
+        self.tk.bind('<Down>', self.decrease_drive)
+        self.tk.bind('<Right>', self.increase_steer)
+        self.tk.bind('<Left>', self.decrease_steer)
 
         self.mode_lbl = Label(mode_frame, text="ZZZZ")
         self.mode_lbl.pack(side=LEFT)
@@ -65,7 +74,7 @@ class MotorGui(Node):
         m2_frame = Frame(root)
         m2_frame.pack(fill=X)
         Label(m2_frame, text="Drive").pack(side=LEFT)
-        self.m2 = Scale(m2_frame, from_=0, to=100, resolution=1, orient=HORIZONTAL)
+        self.m2 = Scale(m2_frame, from_=0, to=100, resolution=1, orient=HORIZONTAL, command=self.on_drive_change)
         self.m2.pack(side=LEFT, fill=X, expand=True)
 
         # self.m2.config(to=10)
@@ -73,7 +82,7 @@ class MotorGui(Node):
     
         motor_btns_frame = Frame(root)
         motor_btns_frame.pack()
-        Button(motor_btns_frame, text='Send Once', command=self.send_motor_once).pack(side=LEFT)
+        #Button(motor_btns_frame, text='Send Once', command=self.send_motor_once).pack(side=LEFT)
         Button(motor_btns_frame, text='Send Cont.', command=self.show_values, state="disabled").pack(side=LEFT)
         Button(motor_btns_frame, text='Stop Send', command=self.show_values, state="disabled").pack(side=LEFT)
         Button(motor_btns_frame, text='Stop Mot', command=self.stop_motors).pack(side=LEFT)
@@ -111,15 +120,23 @@ class MotorGui(Node):
         msg.steer_percentage = int(value)
         self.steer_pub.publish(msg)
 
-    def send_motor_once(self):
-        msg = MotorCommand()
-        msg.is_pwm = self.pwm_mode
-        if (self.pwm_mode):
+    def on_drive_change(self, value):
+        msg = DriveCommand()
+        # msg.steer_percentage = float(value)
+        msg.drive_percentage = int(value)
+        self.drive_pub.publish(msg)
+    
+    def send_motorcommand_once(self):
+        msg = DriveCommand()
+        #msg.is_pwm = self.pwm_mode
+        #if (self.pwm_mode):
             # msg.mot_1_req_rad_sec = float(self.m1.get())
-            msg.mot_2_req_rad_sec = float(self.m2.get())
-        else:
+        #    msg.mot_2_req_rad_sec = float(self.m2.get())
+        #else:
             # msg.mot_1_req_rad_sec = float(self.m1.get()*2*math.pi)
-            msg.mot_2_req_rad_sec = float(self.m2.get()*2*math.pi)
+        #    msg.mot_2_req_rad_sec = float(self.m2.get()*2*math.pi)
+        
+        msg.drive_percentage = float(self.m2.get())
         self.drive_pub.publish(msg)
  
         msg = SteerCommand()
@@ -149,6 +166,29 @@ class MotorGui(Node):
             self.max_val_update_btn.config(state="normal")
 
         # self.update_scale_limits()
+    def increase_drive(self, event=None):
+        """Increase drive slider value."""
+        new_value = min(self.m2.get() + 1, self.m2.cget("to"))
+        self.m2.set(new_value)
+        self.on_drive_change(new_value)
+
+    def decrease_drive(self, event=None):
+        """Decrease drive slider value."""
+        new_value = max(self.m2.get() - 1, self.m2.cget("from"))
+        self.m2.set(new_value)
+        self.on_drive_change(new_value)
+
+    def increase_steer(self, event=None):
+        """Increase steer slider value."""
+        new_value = min(self.m1.get() + 1, self.m1.cget("to"))
+        self.m1.set(new_value)
+        self.on_steer_change(new_value)
+
+    def decrease_steer(self, event=None):
+        """Decrease steer slider value."""
+        new_value = max(self.m1.get() - 1, self.m1.cget("from"))
+        self.m1.set(new_value)
+        self.on_steer_change(new_value)
 
     def motor_vel_callback(self, motor_vels):
         mot_1_spd_rev_sec = motor_vels.mot_1_rad_sec / (2*math.pi)
