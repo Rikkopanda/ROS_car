@@ -98,7 +98,7 @@ class MotorDriver(Node):
         # Open serial comms
         if (self.get_parameter('dry_test').value == False):
             print(f"Connecting to port {self.serial_port} at {self.baud_rate}.")
-            self.conn = serial.Serial(self.serial_port, self.baud_rate, timeout=1.0)
+            self.conn = serial.Serial(self.serial_port, self.baud_rate, timeout=0.05)
             print(f"Connected to {self.conn}")
         else:
             print(f"Dry test = True, so no connect attempt")
@@ -180,18 +180,24 @@ class MotorDriver(Node):
             ## Adapted from original
             c = ''
             value = ''
+            response = ''
             while c != '\r':
-                c = self.conn.read(1).decode("utf-8")
-                if (c == ''):
-                    print(bcolors.WARNING + "Error: Serial timeout on command: " + cmd_string + bcolors.ENDC)
+                # c = self.conn.read(1).decode("utf-8")
+                response = self.conn.readline().decode("utf-8").strip()
+                if (response == ''):
+                    print(bcolors.WARNING + "Error: Serial timeout on command: " + response + bcolors.ENDC)
                     return ''
-                value += c
+                # value += c
 
-            value = value.strip('\r')
-
+            # value = value.strip('\r')
+            response = value.strip('\r')
             if (self.debug_serial_cmds):
-                print(bcolors.OKBLUE + "Received: " + value + bcolors.ENDC)
+                print(bcolors.OKBLUE + "Received: " + response + bcolors.ENDC)
             # return value
+        except serial.SerialTimeoutException:
+            print(f"Timeout on command: {cmd_string}")
+            self.mutex.release()
+            return ''
         finally:
             self.mutex.release()
 
@@ -205,7 +211,7 @@ def main(args=None):
 
     motor_driver = MotorDriver()
 
-    rate = motor_driver.create_rate(2)
+    rate = motor_driver.create_rate(50)
     while rclpy.ok():
         rclpy.spin_once(motor_driver)
         # motor_driver.check_encoders()
