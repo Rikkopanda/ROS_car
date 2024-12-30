@@ -170,8 +170,9 @@ class MotorDriver(Node):
         if (self.get_parameter('dry_test').value == True):
             print(f"Dry test = True, so no connect attempt")
             return
-        self.mutex.acquire()
+        # self.mutex.acquire()
         try:
+            self.conn.timout = 0.05
             cmd_string += "\r"
             self.conn.write(cmd_string.encode("utf-8"))
             if (self.debug_serial_cmds):
@@ -196,10 +197,10 @@ class MotorDriver(Node):
             # return value
         except serial.SerialTimeoutException:
             print(f"Timeout on command: {cmd_string}")
-            self.mutex.release()
+            # self.mutex.release()
             return ''
-        finally:
-            self.mutex.release()
+        # finally:
+            # self.mutex.release()
 
     def close_conn(self):
         self.conn.close()
