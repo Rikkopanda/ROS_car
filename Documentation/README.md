@@ -1,5 +1,33 @@
 
 
+# install dingen
+controller;
+If you're struggling to connect the controller wirelessly try this: Press the share button (left of the touchpad) and the home button together for 3 seconds. The controller should now go into pairing mode and you should be able to find it with bluetooth.
+bluetoothctl;
+scan on
+connect B2:70:23:05:06:07
+trust B2:70:23:05:06:07
+info B2:70:23:05:06:07
+
+
+# testen game die controller gebruikt en audio
+Word War vi - game
+
+ogg vorbis = audio en music format - libvorbis
+depend: libasound2-dev:
+maakt gebruik van Advanced Linux Sound Architecture library
+
+
+portaudio
+
+
+
+
+# handig was bij bouwen
+sudo ldconfig -p | grep vorbis
+check directories in cache van dynamic linker
+
+
 
 # testing how to use
 
