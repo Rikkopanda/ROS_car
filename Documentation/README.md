@@ -8,7 +8,7 @@ scan on
 connect B2:70:23:05:06:07
 trust B2:70:23:05:06:07
 info B2:70:23:05:06:07
-
+geen /dev/input/js0??
 
 # testen game die controller gebruikt en audio
 Word War vi - game
@@ -60,3 +60,8 @@ set ROS_DOMAIN_ID to same on both machines
 export ROS_DOMAIN_ID=5 for example
 echo "export ROS_DOMAIN_ID=201" >> ~/.bashrc
 
+# extra sources
+https://github.com/ArturSpirin/pyPS4Controller
+https://salamwaddah.com/blog/connecting-ps4-controller-to-raspberry-pi-via-bluetooth
+https://elixirforum.com/t/trying-to-use-joystick-cant-see-access-dev-input-js0-on-rpi3/41979
+https://www.baeldung.com/linux/bluetooth-via-terminal

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>ROS2 Game Controller Data</title>
+  <!-- Include roslibjs from a CDN -->
+  <script src="https://static.robotwebtools.org/roslibjs/current/roslib.min.js"></script>
+</head>
+<body>
+  <h1>Game Controller Data (ROS2)</h1>
+  <p id="status">Connecting to ROSBridge...</p>
+  <pre id="joyData">No data yet.</pre>
+
+  <script>
+    // Create a connection to ROSBridge
+    var ros = new ROSLIB.Ros({
+      url : 'ws://127.0.0.1:9090' // Adjust if your ROSBridge uses a different host/port
+    });
+
+    // Connection event listeners
+    ros.on('connection', function() {
+      document.getElementById('status').innerText = 'Connected to ROSBridge.';
+      console.log('Connected to websocket server.');
+    });
+
+    ros.on('error', function(error) {
+      document.getElementById('status').innerText = 'Error connecting to ROSBridge.';
+      console.error('WebSocket error: ', error);
+    });
+
+    ros.on('close', function() {
+      document.getElementById('status').innerText = 'Connection to ROSBridge closed.';
+      console.log('WebSocket connection closed.');
+    });
+
+    // Subscribe to the /joy topic (ROS2 topics are usually the same name)
+    var joyListener = new ROSLIB.Topic({
+      ros : ros,
+      name : '/joy',
+      messageType : 'sensor_msgs/msg/Joy'  // ROS2 message type format
+    });
+
+    joyListener.subscribe(function(message) {
+      console.log('Received message on /joy:', message);
+      document.getElementById('joyData').innerText = JSON.stringify(message, null, 2);
+    });
+  </script>
+</body>
+</html>
+
