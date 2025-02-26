@@ -13,3 +13,6 @@
 [submodule "microros_ws/src/micro_ros_setup"]
 	path = microros_ws/src/micro_ros_setup
 	url = https://github.com/micro-ROS/micro_ros_setup.git
+[submodule "RosBridge_Implementations"]
+	path = RosBridge_Implementations
+	url = git@github.com:Rikkopanda/RosBridge_Implementations.git
