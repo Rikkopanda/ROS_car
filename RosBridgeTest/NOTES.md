@@ -17,3 +17,8 @@ allows for web browser to interact with ros nodes. It is a ros node, with a webs
 
 browser makes connection with websocket, aka a subsciption. these actions from browser are defined in roslib.js
 
+## uses roslib on webserver side; 
+git repo used; -branch ros2
+https://github.com/RobotWebTools/roslibjs/blob/ros2/build/roslib.js
+
+
